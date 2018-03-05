@@ -1,6 +1,6 @@
 <project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="plum-ecoMAX-config-9-36-schema">
   <info>
-    <!--Część informacyjna;-->
+    <!--Część informacyjna; -->
     <device>ECO_MAX_800P_L_MOD_A</device>
     <version>0</version>
   </info>
@@ -44,7 +44,7 @@
         <maximum>80</maximum>
       </maxHuwTemp>
       <huwPompMode>
-        <!--Tryb pracy pompy CWU; Tryb pracy pompy CWU: 0-pompa wyłączoa (nie jest obsługiwana), 1-praca z priorytetem, 2-praca bez priorytetu-->
+        <!--Tryb pracy pompy CWU; Tryb pracy pompy CWU: 0-pompa wyłączona (nie jest obsługiwana), 1-praca z priorytetem, 2-praca bez priorytetu-->
         <value>1</value>
         <minimum>0</minimum>
         <maximum>2</maximum>
@@ -56,7 +56,7 @@
         <maximum>10</maximum>
       </huwHysteresis>
       <huwDisinfection>
-        <!--Odkażanie zbiornika CWU; Odkażanie zbiornika CWU: 0-wyłączne, 1-włączone-->
+        <!--Odkażanie zbiornika CWU; Odkażanie zbiornika CWU: 0-wyłączona, 1-włączone-->
         <value>0</value>
         <minimum>0</minimum>
         <maximum>1</maximum>
@@ -182,7 +182,7 @@
         <maximum>85</maximum>
       </maxMix4Temp>
       <mix1ReduceTempToThermostat>
-        <!--Obniżenie temperatury zadanej mieszacza przy zwartym styku  termostatu 1 [°C]; -->
+        <!--Obniżenie temperatury zadanej mieszacza przy zwartym styku termostatu 1 [°C]; -->
         <value>0</value>
         <minimum>0</minimum>
         <maximum>10</maximum>
@@ -194,13 +194,13 @@
         <maximum>10</maximum>
       </mix2ReduceTempToThermostat>
       <mix3ReduceTempToThermostat>
-        <!--Obniżenie temperatury zadanej mieszacza przy zwartym styku  termostatu 3 [°C]; -->
+        <!--Obniżenie temperatury zadanej mieszacza przy zwartym styku termostatu 3 [°C]; -->
         <value>0</value>
         <minimum>0</minimum>
         <maximum>10</maximum>
       </mix3ReduceTempToThermostat>
       <mix4ReduceTempToThermostat>
-        <!--Obniżenie temperatury zadanej mieszacza przy zwartym styku  termostatu 4 [°C]; -->
+        <!--Obniżenie temperatury zadanej mieszacza przy zwartym styku termostatu 4 [°C]; -->
         <value>0</value>
         <minimum>0</minimum>
         <maximum>10</maximum>
@@ -254,28 +254,25 @@
         <maximum>40</maximum>
       </mix4HeatingCurve>
       <mix1Support>
-        <!--Obsługa pompy mieszacza 1; Obsługa pompy mieszacza : 0-Wyłączona; 1-Włączona; 2-pompa pracuje (oznacza że nie wyłącza al orytmu pompy mieszacza)-->
+        <!--Obsługa pompy mieszacza 1; Obsługa pompy mieszacza : 0-Wyłączona; 1-Włączona; 2-pompa pracuje (oznacza że nie wyłącza algorytmu pompy mieszacza)-->
         <value>2</value>
         <minimum>0</minimum>
         <maximum>3</maximum>
       </mix1Support>
       <mix2Support>
-        <!--Obsługa pompy mieszacza 2; Obsługa pompy mieszacza: 0-Wyłączona; 1-Włączona; 2-pompa pracuje (oznacza że nie wyłącza al
-orytmu pompy mieszacza)-->
+        <!--Obsługa pompy mieszacza 2; Obsługa pompy mieszacza: 0-Wyłączona; 1-Włączona; 2-pompa pracuje (oznacza że nie wyłącza algorytmu pompy mieszacza)-->
         <value>2</value>
         <minimum>0</minimum>
         <maximum>3</maximum>
       </mix2Support>
       <mix3Support>
-        <!--Obsługa pompy mieszacza 3; Obsługa pompy mieszacza: 0-Wyłączona; 1-Włączona; 2-pompa pracuje (oznacza że nie wyłącza al
-orytmu pompy mieszacza)-->
+        <!--Obsługa pompy mieszacza 3; Obsługa pompy mieszacza: 0-Wyłączona; 1-Włączona; 2-pompa pracuje (oznacza że nie wyłącza algorytmu pompy mieszacza)-->
         <value>2</value>
         <minimum>0</minimum>
         <maximum>3</maximum>
       </mix3Support>
       <mix4Support>
-        <!--Obsługa pompy mieszacza 4; Obsługa pompy mieszacza: 0-Wyłączona; 1-Włączona; 2-pompa pracuje (oznacza że nie wyłącza al
-orytmu pompy mieszacza)-->
+        <!--Obsługa pompy mieszacza 4; Obsługa pompy mieszacza: 0-Wyłączona; 1-Włączona; 2-pompa pracuje (oznacza że nie wyłącza algorytmu pompy mieszacza)-->
         <value>2</value>
         <minimum>0</minimum>
         <maximum>3</maximum>
@@ -419,31 +416,31 @@ orytmu pompy mieszacza)-->
         <maximum>95</maximum>
       </boilerCoolingPreventiveTemp>
       <boilerThermostatSelected>
-        <!--Wybór termostatu kotła; Wybór termostatu kot �a: 0-Wyłączony,1-Styk; 2,3,4-ecoSter-->
+        <!--Wybór termostatu kotła; Wybór termostatu kot �a: 0-Wyłączony,1-Styk; 2,3,4-ecoSter -->
         <value>16</value>
         <minimum>16</minimum>
         <maximum>19</maximum>
       </boilerThermostatSelected>
       <mix1ThermostatSelected>
-        <!--Wybór termostatu mieszacza 1; Wybór termostatu mieszacza: 0-Styk; 1,2,3-ecoSter-->
+        <!--Wybór termostatu mieszacza 1; Wybór termostatu mieszacza: 0-Styk; 1,2,3-ecoSter -->
         <value>1</value>
         <minimum>1</minimum>
         <maximum>4</maximum>
       </mix1ThermostatSelected>
       <mix2ThermostatSelected>
-        <!--Wybór termostatu mieszacza 2; Wybór termostatu mieszacza: 0-Styk; 1,2,3-ecoSter-->
+        <!--Wybór termostatu mieszacza 2; Wybór termostatu mieszacza: 0-Styk; 1,2,3-ecoSter -->
         <value>1</value>
         <minimum>1</minimum>
         <maximum>4</maximum>
       </mix2ThermostatSelected>
       <mix3ThermostatSelected>
-        <!--Wybór termostatu mieszacza 3; Wybór termostatu mieszacza: 0-Styk; 1,2,3-ecoSter-->
+        <!--Wybór termostatu mieszacza 3; Wybór termostatu mieszacza: 0-Styk; 1,2,3-ecoSter -->
         <value>1</value>
         <minimum>1</minimum>
         <maximum>4</maximum>
       </mix3ThermostatSelected>
       <mix4ThermostatSelected>
-        <!--Wybór termostatu mieszacza 4; Wybór termostatu mieszacza: 0-Styk; 1,2,3-ecoSter-->
+        <!--Wybór termostatu mieszacza 4; Wybór termostatu mieszacza: 0-Styk; 1,2,3-ecoSter -->
         <value>1</value>
         <minimum>1</minimum>
         <maximum>4</maximum>
@@ -671,7 +668,7 @@ orytmu pompy mieszacza)-->
         <maximum>2</maximum>
       </workalgorithm>
       <menuBoilerLockFromThermostat>
-        <!--Dostępność menu: "Blokada pracy kotła od termostatu";-->
+        <!--Dostępność menu: "Blokada pracy kotła od termostatu"; -->
         <value>1</value>
         <minimum>0</minimum>
         <maximum>1</maximum>
@@ -707,13 +704,13 @@ orytmu pompy mieszacza)-->
         <maximum>1</maximum>
       </lambdaCalibration>
       <lambdaWorkMode>
-        <!--Praca z sondą Lambda; Praca z sondą Lambda: 0-wyłącz na; 1-włączona-->
+        <!--Praca z sondą Lambda; Praca z sondą Lambda: 0-wyłączona; 1-włączona-->
         <value>1</value>
         <minimum>0</minimum>
         <maximum>1</maximum>
       </lambdaWorkMode>
       <lockFromLambda>
-        <!--Blokada podawania paliwa poniżej ustawionej wartości tle u [%]; -->
+        <!--Blokada podawania paliwa poniżej ustawionej wartości tlenu [%]; -->
         <value>50</value>
         <minimum>0</minimum>
         <maximum>100</maximum>
@@ -743,13 +740,13 @@ orytmu pompy mieszacza)-->
         <maximum>1</maximum>
       </sensorMode>
       <WYJ_H_A>
-        <!--Konfiguracja wyjścia H1; Konfiguracja wyjścia H1: 0-koci ł rezerwowy, 1-alarmy, 2-cyrkulacja-->
+        <!--Konfiguracja wyjścia H1; Konfiguracja wyjścia H1: 0-kocioł rezerwowy, 1-alarmy, 2-cyrkulacja-->
         <value>1</value>
         <minimum>0</minimum>
         <maximum>2</maximum>
       </WYJ_H_A>
       <WYJ_H_B>
-        <!--Konfiguracja wyjścia H2; Konfiguracja wyjścia H2: 0-kocił rezerwowy, 1-alarmy, 2-cyrkulacja-->
+        <!--Konfiguracja wyjścia H2; Konfiguracja wyjścia H2: 0-kocioł rezerwowy, 1-alarmy, 2-cyrkulacja-->
         <value>0</value>
         <minimum>0</minimum>
         <maximum>2</maximum>
