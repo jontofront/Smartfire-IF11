@@ -2467,15 +2467,13 @@ HZ, 2-gi: parametr A ecoFALa, 3-ci: parametr B ecoFALa  -->
             <maximum>120</maximum>
           </blowInCorrectionFL>
           <minBoilerOutputFL>
-            <!--Minimalna moc kotła w algorytmie FL [%]; --
-
+            <!--Minimalna moc kotła w algorytmie FL [%]; -->
             <value>10</value>
             <minimum>0</minimum>
             <maximum>100</maximum>
           </minBoilerOutputFL>
           <maxBoilerOutputFL>
-            <!--Maksymalna moc kotła w algorytmie FL [%]; --
-
+            <!--Maksymalna moc kotła w algorytmie FL [%]; -->
             <value>90</value>
             <minimum>0</minimum>
             <maximum>100</maximum>
@@ -2499,8 +2497,7 @@ HZ, 2-gi: parametr A ecoFALa, 3-ci: parametr B ecoFALa  -->
             <maximum>75</maximum>
           </boilerParameterC>
           <regulationMode>
-            <!--Tryb regulacji; Tryb regulacji: 0-standard, 1-FuzyyLogic,
-2-zablokowany FL-->
+            <!--Tryb regulacji; Tryb regulacji: 0-standard, 1-FuzyyLogic, 2-zablokowany FL-->
             <value>0</value>
             <minimum>0</minimum>
             <maximum>2</maximum>
@@ -2534,15 +2531,13 @@ HZ, 2-gi: parametr A ecoFALa, 3-ci: parametr B ecoFALa  -->
             <maximum>103</maximum>
           </fuelCorrection40>
           <airflowCorrection30>
-            <!--Korekta mocy nadmuchu dla 30% mocy kotła [%]; --
-
+            <!--Korekta mocy nadmuchu dla 30% mocy kotła [%]; -->
             <value>100</value>
             <minimum>95</minimum>
             <maximum>105</maximum>
           </airflowCorrection30>
           <fuelCorrection30>
-            <!--Korekta pracy podajnika dla 30% mocy kotła [sek.]; --
-
+            <!--Korekta pracy podajnika dla 30% mocy kotła [sek.]; -->
             <value>100</value>
             <minimum>98</minimum>
             <maximum>102</maximum>
@@ -2566,8 +2561,7 @@ HZ, 2-gi: parametr A ecoFALa, 3-ci: parametr B ecoFALa  -->
             <maximum>20</maximum>
           </ignitionTestTime2>
           <firingUpFeedingTime>
-            <!--Pełna dawka rozpalania [sek.]; --
-
+            <!--Pełna dawka rozpalania [sek.]; -->
             <value>60</value>
             <minimum>1</minimum>
             <maximum>255</maximum>
@@ -2600,8 +2594,7 @@ HZ, 2-gi: parametr A ecoFALa, 3-ci: parametr B ecoFALa  -->
             <maximum>250</maximum>
           </firingUpExTempEnd>
           <testFedingTime>
-            <!--Wstępne podawanie w teście rozpalania [%]; -
-
+            <!--Wstępne podawanie w teście rozpalania [%]; -->
             <value>0</value>
             <minimum>0</minimum>
             <maximum>40</maximum>
@@ -2613,15 +2606,13 @@ HZ, 2-gi: parametr A ecoFALa, 3-ci: parametr B ecoFALa  -->
             <maximum>60</maximum>
           </supervisionTime>
           <supervisionFeedTime>
-            <!--Czas podawania paliwa w trybie NADZÓR [sek.]; --
-
+            <!--Czas podawania paliwa w trybie NADZÓR [sek.]; -->
             <value>0</value>
             <minimum>0</minimum>
             <maximum>0</maximum>
           </supervisionFeedTime>
           <supervisionFeedInterval>
-            <!--Przerwa wentylatora i podajnika w trybie NADZÓR [min.]; --
-
+            <!--Przerwa wentylatora i podajnika w trybie NADZÓR [min.]; -->
             <value>2</value>
             <minimum>1</minimum>
             <maximum>30</maximum>
@@ -2651,22 +2642,19 @@ HZ, 2-gi: parametr A ecoFALa, 3-ci: parametr B ecoFALa  -->
             <maximum>75</maximum>
           </lambdaParameterC>
           <oxygen100>
-            <!--Poziom tlenu dla pracy z moca kotła 100% [*0.1%]; --
-
+            <!--Poziom tlenu dla pracy z moca kotła 100% [*0.1%]; -->
             <value>85</value>
             <minimum>1</minimum>
             <maximum>250</maximum>
           </oxygen100>
           <oxygen50>
-            <!--Poziom tlenu dla pracy z moca kotła 50% [*0.1%]; --
-
+            <!--Poziom tlenu dla pracy z moca kotła 50% [*0.1%]; -->
             <value>105</value>
             <minimum>1</minimum>
             <maximum>250</maximum>
           </oxygen50>
           <oxygen30>
-            <!--Poziom tlenu dla pracy z moca kotła 30% [*0.1%]; --
-
+            <!--Poziom tlenu dla pracy z moca kotła 30% [*0.1%]; -->
             <value>125</value>
             <minimum>1</minimum>
             <maximum>250</maximum>
@@ -2748,12 +2736,10 @@ HZ, 2-gi: parametr A ecoFALa, 3-ci: parametr B ecoFALa  -->
         </producerPassword>
         <viewPassword>
           <!--Hasło podglądu danych (4 cyfry); -->
-
           <value>0</value>
         </viewPassword>
         <algorithmPassword>
           <!--Hasło zmiany algorytmu (4 cyfry); -->
-
           <value>8888</value>
         </algorithmPassword>
       </word>
@@ -2766,4 +2752,3 @@ HZ, 2-gi: parametr A ecoFALa, 3-ci: parametr B ecoFALa  -->
     </uneditable>
   </config>
 </project>
-
