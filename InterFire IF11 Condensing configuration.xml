@@ -260,24 +260,21 @@
         <maximum>3</maximum>
       </mix1Support>
       <mix2Support>
-        <!--Obsługa pompy mieszacza 2; Obsługa pompy mieszacza 
-: 0-Wyłączona; 1-Włączona; 2-pompa pracuje (oznacza że nie wyłącza al
+        <!--Obsługa pompy mieszacza 2; Obsługa pompy mieszacza: 0-Wyłączona; 1-Włączona; 2-pompa pracuje (oznacza że nie wyłącza al
 orytmu pompy mieszacza)-->
         <value>2</value>
         <minimum>0</minimum>
         <maximum>3</maximum>
       </mix2Support>
       <mix3Support>
-        <!--Obsługa pompy mieszacza 3; Obsługa pompy mieszacza 
-: 0-Wyłączona; 1-Włączona; 2-pompa pracuje (oznacza że nie wyłącza al
+        <!--Obsługa pompy mieszacza 3; Obsługa pompy mieszacza: 0-Wyłączona; 1-Włączona; 2-pompa pracuje (oznacza że nie wyłącza al
 orytmu pompy mieszacza)-->
         <value>2</value>
         <minimum>0</minimum>
         <maximum>3</maximum>
       </mix3Support>
       <mix4Support>
-        <!--Obsługa pompy mieszacza 4; Obsługa pompy mieszacza 
-: 0-Wyłączona; 1-Włączona; 2-pompa pracuje (oznacza że nie wyłącza al
+        <!--Obsługa pompy mieszacza 4; Obsługa pompy mieszacza: 0-Wyłączona; 1-Włączona; 2-pompa pracuje (oznacza że nie wyłącza al
 orytmu pompy mieszacza)-->
         <value>2</value>
         <minimum>0</minimum>
@@ -380,25 +377,25 @@ orytmu pompy mieszacza)-->
         <maximum>255</maximum>
       </mix4ValveOpeningTime>
       <mix1InputDeadZone>
-        <!--Nieczułość mieszacza 1 [*0.1°C];-->
+        <!--Nieczułość mieszacza 1 [*0.1°C]; -->
         <value>10</value>
         <minimum>0</minimum>
         <maximum>40</maximum>
       </mix1InputDeadZone>
       <mix2InputDeadZone>
-        <!--Nieczułość mieszacza 2 [*0.1°C];-->
+        <!--Nieczułość mieszacza 2 [*0.1°C]; -->
         <value>10</value>
         <minimum>0</minimum>
         <maximum>40</maximum>
       </mix2InputDeadZone>
       <mix3InputDeadZone>
-        <!--Nieczułość mieszacza 3 [*0.1°C];-->
+        <!--Nieczułość mieszacza 3 [*0.1°C]; -->
         <value>10</value>
         <minimum>0</minimum>
         <maximum>40</maximum>
       </mix3InputDeadZone>
       <mix4InputDeadZone>
-        <!--Nieczułość mieszacza 4 [*0.1°C];-->
+        <!--Nieczułość mieszacza 4 [*0.1°C]; -->
         <value>10</value>
         <minimum>0</minimum>
         <maximum>40</maximum>
@@ -476,25 +473,25 @@ orytmu pompy mieszacza)-->
         <maximum>40</maximum>
       </mix1CurveShift>
       <mix2CurveShift>
-        <!--Przesunięcie równoległe krzywej grzewczej mieszacza 2 [°C];-->
+        <!--Przesunięcie równoległe krzywej grzewczej mieszacza 2 [°C]; -->
         <value>20</value>
         <minimum>0</minimum>
         <maximum>40</maximum>
       </mix2CurveShift>
       <mix3CurveShift>
-        <!--Przesunięcie równoległe krzywej grzewczej mieszacza 3 [°C];-->
+        <!--Przesunięcie równoległe krzywej grzewczej mieszacza 3 [°C]; -->
         <value>20</value>
         <minimum>0</minimum>
         <maximum>40</maximum>
       </mix3CurveShift>
       <mix4CurveShift>
-        <!--Przesunięcie równoległe krzywej grzewczej mieszacza 4 [°C];-->
+        <!--Przesunięcie równoległe krzywej grzewczej mieszacza 4 [°C]; -->
         <value>20</value>
         <minimum>0</minimum>
         <maximum>40</maximum>
       </mix4CurveShift>
       <boilerRoomTempFactor>
-        <!--Współczynnik temperatury pokojowej dla kotła;-->
+        <!--Współczynnik temperatury pokojowej dla kotła; -->
         <value>0</value>
         <minimum>0</minimum>
         <maximum>50</maximum>
@@ -632,7 +629,7 @@ orytmu pompy mieszacza)-->
         <maximum>100</maximum>
       </feeder2IntervalTime>
       <reserveBoilerDeactivTemp>
-        <!--Temperatura wyłączenia kotła zewnętrznego [°C]; Temper tura wyłączenia kotła zewnętrznego: 0-sterowanie kotłem zewnę rznym wyłączone; [°C] -->
+        <!--Temperatura wyłączenia kotła zewnętrznego [°C]; Temperatura wyłączenia kotła zewnętrznego: 0-sterowanie kotłem zewnętrznym wyłączone; [°C] -->
         <value>0</value>
         <minimum>25</minimum>
         <maximum>60</maximum>
@@ -662,13 +659,13 @@ orytmu pompy mieszacza)-->
         <maximum>90</maximum>
       </maxFeederTemp>
       <noFuelEmissionTemp>
-        <!--Temperatura spalin, przy której wykrywamy brak płomien a [°C]; -->
+        <!--Temperatura spalin, przy której wykrywamy brak płomienia [°C]; -->
         <value>25</value>
         <minimum>20</minimum>
         <maximum>150</maximum>
       </noFuelEmissionTemp>
       <workalgorithm>
-        <!--Wybor algorytmu pracy; Wybor algorytmu pracy; 0-praca na starym algorytmie; 1-praca na nowym algorytmie-->
+        <!--Wybor algorytmu pracy; Wybor algorytmu pracy; 0-praca na starym algorytmie; 1-praca na nowym algorytmie -->
         <value>1</value>
         <minimum>0</minimum>
         <maximum>2</maximum>
