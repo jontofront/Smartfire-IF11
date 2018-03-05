@@ -1,5 +1,4 @@
-<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-xmlns="plum-ecoMAX-config-9-36-schema">
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="plum-ecoMAX-config-9-36-schema">
   <info>
     <!--Część informacyjna;-->
     <device>ECO_MAX_800P_L_MOD_A</device>
@@ -45,7 +44,7 @@ xmlns="plum-ecoMAX-config-9-36-schema">
         <maximum>80</maximum>
       </maxHuwTemp>
       <huwPompMode>
-        <!--Tryb pracy pompy CWU; Tryb pracy pompy CWU: 0-pompa wyłączo a (nie jest obsługiwana), 1-praca z priorytetem, 2-praca bez priorytetu-->
+        <!--Tryb pracy pompy CWU; Tryb pracy pompy CWU: 0-pompa wyłączoa (nie jest obsługiwana), 1-praca z priorytetem, 2-praca bez priorytetu-->
         <value>1</value>
         <minimum>0</minimum>
         <maximum>2</maximum>
@@ -57,7 +56,7 @@ xmlns="plum-ecoMAX-config-9-36-schema">
         <maximum>10</maximum>
       </huwHysteresis>
       <huwDisinfection>
-        <!--Odkażanie zbiornika CWU; Odkażanie zbiornika CWU: 0-wyłącz ne, 1-włączone-->
+        <!--Odkażanie zbiornika CWU; Odkażanie zbiornika CWU: 0-wyłączne, 1-włączone-->
         <value>0</value>
         <minimum>0</minimum>
         <maximum>1</maximum>
@@ -93,7 +92,7 @@ xmlns="plum-ecoMAX-config-9-36-schema">
         <maximum>99</maximum>
       </chStandLoadHuw>
       <boilerIncByHuwOrMix>
-        <!--Podwyższenie temperatury zadanej kotła od CWU, mieszacza l b bufora [°C]; -->
+        <!--Podwyższenie temperatury zadanej kotła od CWU, mieszacza lub bufora [°C]; -->
         <value>5</value>
         <minimum>2</minimum>
         <maximum>25</maximum>
@@ -183,25 +182,25 @@ xmlns="plum-ecoMAX-config-9-36-schema">
         <maximum>85</maximum>
       </maxMix4Temp>
       <mix1ReduceTempToThermostat>
-        <!--Obniżenie temperatury zadanej mieszacza przy zwartym styk  termostatu 1 [°C]; -->
+        <!--Obniżenie temperatury zadanej mieszacza przy zwartym styku  termostatu 1 [°C]; -->
         <value>0</value>
         <minimum>0</minimum>
         <maximum>10</maximum>
       </mix1ReduceTempToThermostat>
       <mix2ReduceTempToThermostat>
-        <!--Obniżenie temperatury zadanej mieszacza przy zwartym styk termostatu 2 [°C]; -->
+        <!--Obniżenie temperatury zadanej mieszacza przy zwartym styku termostatu 2 [°C]; -->
         <value>0</value>
         <minimum>0</minimum>
         <maximum>10</maximum>
       </mix2ReduceTempToThermostat>
       <mix3ReduceTempToThermostat>
-        <!--Obniżenie temperatury zadanej mieszacza przy zwartym styk  termostatu 3 [°C]; -->
+        <!--Obniżenie temperatury zadanej mieszacza przy zwartym styku  termostatu 3 [°C]; -->
         <value>0</value>
         <minimum>0</minimum>
         <maximum>10</maximum>
       </mix3ReduceTempToThermostat>
       <mix4ReduceTempToThermostat>
-        <!--Obniżenie temperatury zadanej mieszacza przy zwartym styk  termostatu 4 [°C]; -->
+        <!--Obniżenie temperatury zadanej mieszacza przy zwartym styku  termostatu 4 [°C]; -->
         <value>0</value>
         <minimum>0</minimum>
         <maximum>10</maximum>
