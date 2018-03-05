@@ -254,25 +254,25 @@
         <maximum>40</maximum>
       </mix4HeatingCurve>
       <mix1Support>
-        <!--Obsługa pompy mieszacza 1; Obsługa pompy mieszacza : 0-Wyłączona; 1-Włączona; 2-pompa pracuje (oznacza że nie wyłącza algorytmu pompy mieszacza)-->
+        <!--Obsługa pompy mieszacza 1: Obsługa pompy mieszacza : 0-Wyłączona; 1-Włączona; 2-pompa pracuje (oznacza że nie wyłącza algorytmu pompy mieszacza)-->
         <value>2</value>
         <minimum>0</minimum>
         <maximum>3</maximum>
       </mix1Support>
       <mix2Support>
-        <!--Obsługa pompy mieszacza 2; Obsługa pompy mieszacza: 0-Wyłączona; 1-Włączona; 2-pompa pracuje (oznacza że nie wyłącza algorytmu pompy mieszacza)-->
+        <!--Obsługa pompy mieszacza 2: Obsługa pompy mieszacza: 0-Wyłączona; 1-Włączona; 2-pompa pracuje (oznacza że nie wyłącza algorytmu pompy mieszacza)-->
         <value>2</value>
         <minimum>0</minimum>
         <maximum>3</maximum>
       </mix2Support>
       <mix3Support>
-        <!--Obsługa pompy mieszacza 3; Obsługa pompy mieszacza: 0-Wyłączona; 1-Włączona; 2-pompa pracuje (oznacza że nie wyłącza algorytmu pompy mieszacza)-->
+        <!--Obsługa pompy mieszacza 3: Obsługa pompy mieszacza: 0-Wyłączona; 1-Włączona; 2-pompa pracuje (oznacza że nie wyłącza algorytmu pompy mieszacza)-->
         <value>2</value>
         <minimum>0</minimum>
         <maximum>3</maximum>
       </mix3Support>
       <mix4Support>
-        <!--Obsługa pompy mieszacza 4; Obsługa pompy mieszacza: 0-Wyłączona; 1-Włączona; 2-pompa pracuje (oznacza że nie wyłącza algorytmu pompy mieszacza)-->
+        <!--Obsługa pompy mieszacza 4: Obsługa pompy mieszacza: 0-Wyłączona; 1-Włączona; 2-pompa pracuje (oznacza że nie wyłącza algorytmu pompy mieszacza)-->
         <value>2</value>
         <minimum>0</minimum>
         <maximum>3</maximum>
