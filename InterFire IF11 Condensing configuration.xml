@@ -1,11 +1,12 @@
-<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="plum-ecoMAX-config-9-36-schema">
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns="plum-ecoMAX-config-9-36-schema">
   <info>
-    <!--Information part; -->
+    <!--Część informacyjna;-->
     <device>ECO_MAX_800P_L_MOD_A</device>
     <version>0</version>
   </info>
   <config>
-    <!--Configuration part; -->
+    <!--Część konfiguracyjna; -->
     <common>
       <presetBoilerTemp>
         <!--Temperatura zadana kotła CO [°C]; -->
@@ -44,8 +45,8 @@
         <maximum>80</maximum>
       </maxHuwTemp>
       <huwPompMode>
-        <!--Tryb pracy pompy CWU; Tryb pracy pompy CWU: 0-pompa wyłączona (nie jest obsługiwana), 1-praca z priorytetem, 2-praca bez priorytetu-->
-        <value>2</value>
+        <!--Tryb pracy pompy CWU; Tryb pracy pompy CWU: 0-pompa wyłączo a (nie jest obsługiwana), 1-praca z priorytetem, 2-praca bez priorytetu-->
+        <value>1</value>
         <minimum>0</minimum>
         <maximum>2</maximum>
       </huwPompMode>
@@ -56,7 +57,7 @@
         <maximum>10</maximum>
       </huwHysteresis>
       <huwDisinfection>
-        <!--Odkażanie zbiornika CWU; Odkażanie zbiornika CWU: 0-wyłączone, 1-włączone-->
+        <!--Odkażanie zbiornika CWU; Odkażanie zbiornika CWU: 0-wyłącz ne, 1-włączone-->
         <value>0</value>
         <minimum>0</minimum>
         <maximum>1</maximum>
@@ -92,8 +93,8 @@
         <maximum>99</maximum>
       </chStandLoadHuw>
       <boilerIncByHuwOrMix>
-        <!--Podwyższenie temperatury zadanej kotła od CWU, mieszacza lub bufora [°C]; -->
-        <value>20</value>
+        <!--Podwyższenie temperatury zadanej kotła od CWU, mieszacza l b bufora [°C]; -->
+        <value>5</value>
         <minimum>2</minimum>
         <maximum>25</maximum>
       </boilerIncByHuwOrMix>
@@ -112,36 +113,36 @@
       <presetMix1Temp>
         <!--Temperatura zadana 1 obiegu grzewczego [°C]; -->
         <value>40</value>
-        <minimum>30</minimum>
+        <minimum>20</minimum>
         <maximum>85</maximum>
       </presetMix1Temp>
       <presetMix2Temp>
         <!--Temperatura zadana 2 obiegu grzewczego [°C]; -->
         <value>40</value>
-        <minimum>30</minimum>
+        <minimum>20</minimum>
         <maximum>85</maximum>
       </presetMix2Temp>
       <presetMix3Temp>
         <!--Temperatura zadana 3 obiegu grzewczego [°C]; -->
         <value>40</value>
-        <minimum>30</minimum>
+        <minimum>20</minimum>
         <maximum>85</maximum>
       </presetMix3Temp>
       <presetMix4Temp>
         <!--Temperatura zadana 4 obiegu grzewczego [°C]; -->
         <value>40</value>
-        <minimum>30</minimum>
+        <minimum>20</minimum>
         <maximum>85</maximum>
       </presetMix4Temp>
       <minMix1Temp>
         <!--Minimalna temperatura zadana 1 obiegu grzewczego [°C]; -->
-        <value>30</value>
+        <value>25</value>
         <minimum>20</minimum>
         <maximum>85</maximum>
       </minMix1Temp>
       <minMix2Temp>
         <!--Minimalna temperatura zadana 2 obiegu grzewczego [°C]; -->
-        <value>30</value>
+        <value>25</value>
         <minimum>20</minimum>
         <maximum>85</maximum>
       </minMix2Temp>
@@ -165,114 +166,120 @@
       </maxMix1Temp>
       <maxMix2Temp>
         <!--Maksymalna temperatura zadana 2 obiegu grzewczego [°C]; -->
-        <value>55</value>
+        <value>40</value>
         <minimum>30</minimum>
         <maximum>85</maximum>
       </maxMix2Temp>
       <maxMix3Temp>
         <!--Maksymalna temperatura zadana 3 obiegu grzewczego [°C]; -->
-        <value>55</value>
+        <value>40</value>
         <minimum>30</minimum>
         <maximum>85</maximum>
       </maxMix3Temp>
       <maxMix4Temp>
         <!--Maksymalna temperatura zadana 4 obiegu grzewczego [°C]; -->
-        <value>55</value>
+        <value>40</value>
         <minimum>30</minimum>
         <maximum>85</maximum>
       </maxMix4Temp>
       <mix1ReduceTempToThermostat>
-        <!--Obniżenie temperatury zadanej mieszacza przy zwartym styku termostatu 1 [°C]; -->
-        <value>5</value>
+        <!--Obniżenie temperatury zadanej mieszacza przy zwartym styk  termostatu 1 [°C]; -->
+        <value>0</value>
         <minimum>0</minimum>
         <maximum>10</maximum>
       </mix1ReduceTempToThermostat>
       <mix2ReduceTempToThermostat>
-        <!--Obniżenie temperatury zadanej mieszacza przy zwartym styku termostatu 2 [°C]; -->
-        <value>5</value>
+        <!--Obniżenie temperatury zadanej mieszacza przy zwartym styk termostatu 2 [°C]; -->
+        <value>0</value>
         <minimum>0</minimum>
         <maximum>10</maximum>
       </mix2ReduceTempToThermostat>
       <mix3ReduceTempToThermostat>
-        <!--Obniżenie temperatury zadanej mieszacza przy zwartym styku termostatu 3 [°C]; -->
-        <value>5</value>
+        <!--Obniżenie temperatury zadanej mieszacza przy zwartym styk  termostatu 3 [°C]; -->
+        <value>0</value>
         <minimum>0</minimum>
         <maximum>10</maximum>
       </mix3ReduceTempToThermostat>
       <mix4ReduceTempToThermostat>
-        <!--Obniżenie temperatury zadanej mieszacza przy zwartym styku termostatu 4 [°C]; -->
-        <value>5</value>
+        <!--Obniżenie temperatury zadanej mieszacza przy zwartym styk  termostatu 4 [°C]; -->
+        <value>0</value>
         <minimum>0</minimum>
         <maximum>10</maximum>
       </mix4ReduceTempToThermostat>
       <mix1OutTempControl>
         <!--Sterowanie pogodowe mieszacza 1; -->
-        <value>1</value>
+        <value>0</value>
         <minimum>0</minimum>
         <maximum>1</maximum>
       </mix1OutTempControl>
       <mix2OutTempControl>
         <!--Sterowanie pogodowe mieszacza 2; -->
-        <value>1</value>
+        <value>0</value>
         <minimum>0</minimum>
         <maximum>1</maximum>
       </mix2OutTempControl>
       <mix3OutTempControl>
         <!--Sterowanie pogodowe mieszacza 3; -->
-        <value>1</value>
+        <value>0</value>
         <minimum>0</minimum>
         <maximum>1</maximum>
       </mix3OutTempControl>
       <mix4OutTempControl>
         <!--Sterowanie pogodowe mieszacza 4; -->
-        <value>1</value>
+        <value>0</value>
         <minimum>0</minimum>
         <maximum>1</maximum>
       </mix4OutTempControl>
       <mix1HeatingCurve>
         <!--Krzywa grzewcza obiegu mieszacza 1; -->
-        <value>6</value>
+        <value>8</value>
         <minimum>1</minimum>
         <maximum>40</maximum>
       </mix1HeatingCurve>
       <mix2HeatingCurve>
         <!--Krzywa grzewcza obiegu mieszacza 2; -->
-        <value>6</value>
+        <value>8</value>
         <minimum>1</minimum>
         <maximum>40</maximum>
       </mix2HeatingCurve>
       <mix3HeatingCurve>
         <!--Krzywa grzewcza obiegu mieszacza 3; -->
-        <value>6</value>
+        <value>8</value>
         <minimum>1</minimum>
         <maximum>40</maximum>
       </mix3HeatingCurve>
       <mix4HeatingCurve>
         <!--Krzywa grzewcza obiegu mieszacza 4; -->
-        <value>6</value>
+        <value>8</value>
         <minimum>1</minimum>
         <maximum>40</maximum>
       </mix4HeatingCurve>
       <mix1Support>
-        <!--Obsługa pompy mieszacza 1; Obsługa pompy mieszacza 1: 0-Wyłączona; 1-Włączona; 2-pompa pracuje (oznacza że nie wyłącza algorytmu pompy mieszacza)-->
+        <!--Obsługa pompy mieszacza 1; Obsługa pompy mieszacza : 0-Wyłączona; 1-Włączona; 2-pompa pracuje (oznacza że nie wyłącza al orytmu pompy mieszacza)-->
         <value>2</value>
         <minimum>0</minimum>
         <maximum>3</maximum>
       </mix1Support>
       <mix2Support>
-        <!--Obsługa pompy mieszacza 2; Obsługa pompy mieszacza 2: 0-Wyłączona; 1-Włączona; 2-pompa pracuje (oznacza że nie wyłącza algorytmu pompy mieszacza)-->
+        <!--Obsługa pompy mieszacza 2; Obsługa pompy mieszacza 
+: 0-Wyłączona; 1-Włączona; 2-pompa pracuje (oznacza że nie wyłącza al
+orytmu pompy mieszacza)-->
         <value>2</value>
         <minimum>0</minimum>
         <maximum>3</maximum>
       </mix2Support>
       <mix3Support>
-        <!--Obsługa pompy mieszacza 3; Obsługa pompy mieszacza 3: 0-Wyłączona; 1-Włączona; 2-pompa pracuje (oznacza że nie wyłącza algorytmu pompy mieszacza)-->
+        <!--Obsługa pompy mieszacza 3; Obsługa pompy mieszacza 
+: 0-Wyłączona; 1-Włączona; 2-pompa pracuje (oznacza że nie wyłącza al
+orytmu pompy mieszacza)-->
         <value>2</value>
         <minimum>0</minimum>
         <maximum>3</maximum>
       </mix3Support>
       <mix4Support>
-        <!--Obsługa pompy mieszacza 4; Obsługa pompy mieszacza 4: 0-Wyłączona; 1-Włączona; 2-pompa pracuje (oznacza że nie wyłącza algorytmu pompy mieszacza)-->
+        <!--Obsługa pompy mieszacza 4; Obsługa pompy mieszacza 
+: 0-Wyłączona; 1-Włączona; 2-pompa pracuje (oznacza że nie wyłącza al
+orytmu pompy mieszacza)-->
         <value>2</value>
         <minimum>0</minimum>
         <maximum>3</maximum>
@@ -374,26 +381,26 @@
         <maximum>255</maximum>
       </mix4ValveOpeningTime>
       <mix1InputDeadZone>
-        <!--Nieczułość mieszacza 1 [*0.1°C]; -->
-        <value>20</value>
+        <!--Nieczułość mieszacza 1 [*0.1°C];-->
+        <value>10</value>
         <minimum>0</minimum>
         <maximum>40</maximum>
       </mix1InputDeadZone>
       <mix2InputDeadZone>
-        <!--Nieczułość mieszacza 2 [*0.1°C]; -->
-        <value>20</value>
+        <!--Nieczułość mieszacza 2 [*0.1°C];-->
+        <value>10</value>
         <minimum>0</minimum>
         <maximum>40</maximum>
       </mix2InputDeadZone>
       <mix3InputDeadZone>
-        <!--Nieczułość mieszacza 3 [*0.1°C]; -->
-        <value>20</value>
+        <!--Nieczułość mieszacza 3 [*0.1°C];-->
+        <value>10</value>
         <minimum>0</minimum>
         <maximum>40</maximum>
       </mix3InputDeadZone>
       <mix4InputDeadZone>
-        <!--Nieczułość mieszacza 4 [*0.1°C]; -->
-        <value>20</value>
+        <!--Nieczułość mieszacza 4 [*0.1°C];-->
+        <value>10</value>
         <minimum>0</minimum>
         <maximum>40</maximum>
       </mix4InputDeadZone>
@@ -416,31 +423,31 @@
         <maximum>95</maximum>
       </boilerCoolingPreventiveTemp>
       <boilerThermostatSelected>
-        <!--Wybór termostatu kotła; Wybór termostatu kotła: 0-Wyłączony,1-Styk; 2,3,4-ecoSter-->
+        <!--Wybór termostatu kotła; Wybór termostatu kot �a: 0-Wyłączony,1-Styk; 2,3,4-ecoSter-->
         <value>16</value>
         <minimum>16</minimum>
         <maximum>19</maximum>
       </boilerThermostatSelected>
       <mix1ThermostatSelected>
-        <!--Wybór termostatu mieszacza 1; Wybór termostatu mieszacza 1: 0-Styk; 1,2,3-ecoSter-->
+        <!--Wybór termostatu mieszacza 1; Wybór termostatu mieszacza: 0-Styk; 1,2,3-ecoSter-->
         <value>1</value>
         <minimum>1</minimum>
         <maximum>4</maximum>
       </mix1ThermostatSelected>
       <mix2ThermostatSelected>
-        <!--Wybór termostatu mieszacza 2; Wybór termostatu mieszacza 2: 0-Styk; 1,2,3-ecoSter-->
+        <!--Wybór termostatu mieszacza 2; Wybór termostatu mieszacza: 0-Styk; 1,2,3-ecoSter-->
         <value>1</value>
         <minimum>1</minimum>
         <maximum>4</maximum>
       </mix2ThermostatSelected>
       <mix3ThermostatSelected>
-        <!--Wybór termostatu mieszacza 3; Wybór termostatu mieszacza 3: 0-Styk; 1,2,3-ecoSter-->
+        <!--Wybór termostatu mieszacza 3; Wybór termostatu mieszacza: 0-Styk; 1,2,3-ecoSter-->
         <value>1</value>
         <minimum>1</minimum>
         <maximum>4</maximum>
       </mix3ThermostatSelected>
       <mix4ThermostatSelected>
-        <!--Wybór termostatu mieszacza 4; Wybór termostatu mieszacza 4: 0-Styk; 1,2,3-ecoSter-->
+        <!--Wybór termostatu mieszacza 4; Wybór termostatu mieszacza: 0-Styk; 1,2,3-ecoSter-->
         <value>1</value>
         <minimum>1</minimum>
         <maximum>4</maximum>
@@ -458,7 +465,7 @@
         <maximum>255</maximum>
       </circPumpOperationTime>
       <boilerCurveShift>
-        <!--Przesunięcie równoległe krzywej grzewczej kotła [°C]; -->
+        <!--Przesunięcie równoległe krzywej grzewczej kotła [°C] -->
         <value>20</value>
         <minimum>0</minimum>
         <maximum>40</maximum>
@@ -470,25 +477,25 @@
         <maximum>40</maximum>
       </mix1CurveShift>
       <mix2CurveShift>
-        <!--Przesunięcie równoległe krzywej grzewczej mieszacza 2 [°C]; -->
+        <!--Przesunięcie równoległe krzywej grzewczej mieszacza 2 [°C];-->
         <value>20</value>
         <minimum>0</minimum>
         <maximum>40</maximum>
       </mix2CurveShift>
       <mix3CurveShift>
-        <!--Przesunięcie równoległe krzywej grzewczej mieszacza 3 [°C]; -->
+        <!--Przesunięcie równoległe krzywej grzewczej mieszacza 3 [°C];-->
         <value>20</value>
         <minimum>0</minimum>
         <maximum>40</maximum>
       </mix3CurveShift>
       <mix4CurveShift>
-        <!--Przesunięcie równoległe krzywej grzewczej mieszacza 4 [°C]; -->
+        <!--Przesunięcie równoległe krzywej grzewczej mieszacza 4 [°C];-->
         <value>20</value>
         <minimum>0</minimum>
         <maximum>40</maximum>
       </mix4CurveShift>
       <boilerRoomTempFactor>
-        <!--Współczynnik temperatury pokojowej dla kotła; -->
+        <!--Współczynnik temperatury pokojowej dla kotła;-->
         <value>0</value>
         <minimum>0</minimum>
         <maximum>50</maximum>
@@ -519,19 +526,19 @@
       </mix4RoomTempFactor>
       <pokerCycleTime>
         <!--Czas cyklu pogrzebacza [sek.]; -->
-        <value>100</value>
+        <value>115</value>
         <minimum>1</minimum>
         <maximum>250</maximum>
       </pokerCycleTime>
       <burnerCleaningIntervalTime>
-        <!--Czas pracy po jakim następuje automatyczne wygaszenie i ponowne rozpalenie kotła [godz.]; -->
-        <value>6</value>
+        <!--Czas pracy po jakim następuje automatyczne wygaszenie i ponown rozpalenie kotła [godz.]; -->
+        <value>4</value>
         <minimum>1</minimum>
         <maximum>24</maximum>
       </burnerCleaningIntervalTime>
       <stabilizationTime>
         <!--Czas stabilizacji po rozpalaniu [min.]; -->
-        <value>5</value>
+        <value>8</value>
         <minimum>0</minimum>
         <maximum>10</maximum>
       </stabilizationTime>
@@ -548,7 +555,7 @@
         <maximum>100</maximum>
       </puttingOutBlowIn>
       <bufferOperationActivation>
-        <!--Obsługa bufora; Obsługa bufora:  0-Wyłączony; 1-Włączony -->
+        <!--Obsługa bufora; Obsługa bufora:  0-Wyłączony; 1-Włączo -->
         <value>0</value>
         <minimum>0</minimum>
         <maximum>1</maximum>
@@ -567,7 +574,7 @@
       </bufferLoadingEndTemp>
       <fuelAlarmLevel>
         <!--Poziom monitu braku paliwa [%]; -->
-        <value>10</value>
+        <value>0</value>
         <minimum>5</minimum>
         <maximum>99</maximum>
       </fuelAlarmLevel>
@@ -626,20 +633,20 @@
         <maximum>100</maximum>
       </feeder2IntervalTime>
       <reserveBoilerDeactivTemp>
-        <!--Temperatura wyłączenia kotła zewnętrznego [°C]; Temperatura wyłączenia kotła zewnętrznego: 0-sterowanie kotłem zewnętrznym wyłączone; [°C]-->
+        <!--Temperatura wyłączenia kotła zewnętrznego [°C]; Temper tura wyłączenia kotła zewnętrznego: 0-sterowanie kotłem zewnę rznym wyłączone; [°C] -->
         <value>0</value>
         <minimum>25</minimum>
         <maximum>60</maximum>
       </reserveBoilerDeactivTemp>
       <blowInExtendTime>
         <!--Wydłużenie went w trybie podtrzymania [sek.]; -->
-        <value>5</value>
+        <value>60</value>
         <minimum>0</minimum>
         <maximum>99</maximum>
       </blowInExtendTime>
       <profilesNumber>
         <!--Liczba palników; -->
-        <value>6</value>
+        <value>1</value>
         <minimum>0</minimum>
         <maximum>20</maximum>
       </profilesNumber>
@@ -656,20 +663,20 @@
         <maximum>90</maximum>
       </maxFeederTemp>
       <noFuelEmissionTemp>
-        <!--Temperatura spalin, przy której wykrywamy brak płomienia [°C]; -->
+        <!--Temperatura spalin, przy której wykrywamy brak płomien a [°C]; -->
         <value>25</value>
         <minimum>20</minimum>
         <maximum>150</maximum>
       </noFuelEmissionTemp>
       <workalgorithm>
         <!--Wybor algorytmu pracy; Wybor algorytmu pracy; 0-praca na starym algorytmie; 1-praca na nowym algorytmie-->
-        <value>0</value>
+        <value>1</value>
         <minimum>0</minimum>
         <maximum>2</maximum>
       </workalgorithm>
       <menuBoilerLockFromThermostat>
-        <!--Dostępność menu: "Blokada pracy kotła od termostatu"; -->
-        <value>0</value>
+        <!--Dostępność menu: "Blokada pracy kotła od termostatu";-->
+        <value>1</value>
         <minimum>0</minimum>
         <maximum>1</maximum>
       </menuBoilerLockFromThermostat>
@@ -704,20 +711,20 @@
         <maximum>1</maximum>
       </lambdaCalibration>
       <lambdaWorkMode>
-        <!--Praca z sondą Lambda; Praca z sondą Lambda: 0-wyłączona; 1-włączona-->
+        <!--Praca z sondą Lambda; Praca z sondą Lambda: 0-wyłącz na; 1-włączona-->
         <value>1</value>
         <minimum>0</minimum>
         <maximum>1</maximum>
       </lambdaWorkMode>
       <lockFromLambda>
-        <!--Blokada podawania paliwa poniżej ustawionej wartości tlenu [%]; -->
+        <!--Blokada podawania paliwa poniżej ustawionej wartości tle u [%]; -->
         <value>50</value>
         <minimum>0</minimum>
         <maximum>100</maximum>
       </lockFromLambda>
       <o2FuelDetection>
         <!--Próg detekcji braku paliwa na sondzie Lambda [%]; -->
-        <value>170</value>
+        <value>195</value>
         <minimum>150</minimum>
         <maximum>210</maximum>
       </o2FuelDetection>
@@ -740,31 +747,31 @@
         <maximum>1</maximum>
       </sensorMode>
       <WYJ_H_A>
-        <!--Konfiguracja wyjścia H1; Konfiguracja wyjścia H1: 0-kocioł rezerwowy, 1-alarmy, 2-cyrkulacja-->
+        <!--Konfiguracja wyjścia H1; Konfiguracja wyjścia H1: 0-koci ł rezerwowy, 1-alarmy, 2-cyrkulacja-->
         <value>1</value>
         <minimum>0</minimum>
         <maximum>2</maximum>
       </WYJ_H_A>
       <WYJ_H_B>
-        <!--Konfiguracja wyjścia H2; Konfiguracja wyjścia H2: 0-kocioł rezerwowy, 1-alarmy, 2-cyrkulacja-->
+        <!--Konfiguracja wyjścia H2; Konfiguracja wyjścia H2: 0-kocił rezerwowy, 1-alarmy, 2-cyrkulacja-->
         <value>0</value>
         <minimum>0</minimum>
         <maximum>2</maximum>
       </WYJ_H_B>
       <CHIMNEY_MODE>
-        <!--Moc kotła w trybie KOMINIARZ; Moc kotła w trybie KOMINIARZ: 0-"30%", 1-"50%", 2-"100%". -->
-        <value>1</value>
+        <!--Moc kotła w trybie KOMINIARZ; Moc kotła w trybie KOMINIAR : 0-"30%", 1-"50%", 2-"100%". -->
+        <value>2</value>
         <minimum>0</minimum>
-        <maximum>1</maximum>
+        <maximum>2</maximum>
       </CHIMNEY_MODE>
       <CHIMNEY_TIME>
         <!--Czas pracy w trybie KOMINIARZ [min.]; Czas pracy w trybie KOMINIARZ [min.]-->
-        <value>0</value>
-        <minimum>0</minimum>
-        <maximum>127</maximum>
+        <value>60</value>
+        <minimum>1</minimum>
+        <maximum>255</maximum>
       </CHIMNEY_TIME>
       <ZAAWANSOWANE_PARAM>
-        <!--Show advanced options; Show advanced options: 0-no; 1-yes-->
+        <!--Pokaż opcje zaawansowane; Pokaż opcje zaawansowane: 0-ni; 1-tak-->
         <value>1</value>
         <minimum>0</minimum>
         <maximum>1</maximum>
@@ -773,7 +780,7 @@
         <!--Maska aktywująca alarmy; -->
         <value>0</value>
         <minimum>0</minimum>
-        <maximum>1</maximum>
+        <maximum>127</maximum>
       </activeAlarmCode>
     </common>
     <profiles text="Palniki">
@@ -783,7 +790,7 @@
         <menu0>0</menu0>
         <menu1>0</menu1>
         <data>
-          <!--Profile data; -->
+          <!--Dane profilu; -->
           <blowInOutput100>
             <!--Moc nadmuchu przy mocy kotła 100% [%]; -->
             <value>30</value>
@@ -942,7 +949,7 @@
           </firingUpBlowIn>
           <ignitionTestTime>
             <!--Czas przedmuchu przed rozpalaniem 1 [sek.]; -->
-            <value>3</value>
+            <value>5</value>
             <minimum>1</minimum>
             <maximum>10</maximum>
           </ignitionTestTime>
@@ -978,13 +985,13 @@
           </firingUpExTempDelta2>
           <firingUpExTempEnd>
             <!--Temperatura spalin końca rozpalania [°C]; -->
-            <value>150</value>
+            <value>200</value>
             <minimum>30</minimum>
             <maximum>250</maximum>
           </firingUpExTempEnd>
           <testFedingTime>
             <!--Wstępne podawanie w teście rozpalania [%]; -->
-            <value>20</value>
+            <value>0</value>
             <minimum>0</minimum>
             <maximum>40</maximum>
           </testFedingTime>
@@ -1002,7 +1009,7 @@
           </supervisionFeedTime>
           <supervisionFeedInterval>
             <!--Przerwa wentylatora i podajnika w trybie NADZÓR [min.]; -->
-            <value>5</value>
+            <value>2</value>
             <minimum>1</minimum>
             <maximum>30</maximum>
           </supervisionFeedInterval>
@@ -1075,81 +1082,81 @@
         </data>
       </profile_1>
       <profile_2>
-        <name>IF14</name>
+        <name>kopia SF11</name>
         <reserved>0305321b0b150f0f0f0f1e233c57595959590f111e26282828287d69555a5a5a5a5a9ccc</reserved>
-        <menu0>0</menu0>
-        <menu1>0</menu1>
+        <menu0>1</menu0>
+        <menu1>1</menu1>
         <data>
-          <!--Profile data; -->
+          <!--Dane profilu; -->
           <blowInOutput100>
             <!--Moc nadmuchu przy mocy kotła 100% [%]; -->
-            <value>30</value>
+            <value>60</value>
             <minimum>10</minimum>
             <maximum>100</maximum>
           </blowInOutput100>
           <feederOperation100>
             <!--Czas podawania przy mocy kotła 100% [sek.]; -->
-            <value>5</value>
+            <value>4</value>
             <minimum>1</minimum>
             <maximum>100</maximum>
           </feederOperation100>
           <feederInterval100>
             <!--Przerwa podawania przy mocy kotła 100% [sek.]; -->
-            <value>13</value>
+            <value>18</value>
             <minimum>1</minimum>
             <maximum>100</maximum>
           </feederInterval100>
           <blowInOutput50>
             <!--Moc nadmuchu przy mocy kotła 50% [%]; -->
-            <value>30</value>
+            <value>50</value>
             <minimum>10</minimum>
             <maximum>100</maximum>
           </blowInOutput50>
           <feederOperation50>
             <!--Czas podawania przy mocy kotła 50% [sek.]; -->
-            <value>5</value>
+            <value>4</value>
             <minimum>1</minimum>
             <maximum>100</maximum>
           </feederOperation50>
           <feederInterval50>
             <!--Przerwa podawania przy mocy kotła 50% [sek.]; -->
-            <value>30</value>
+            <value>41</value>
             <minimum>1</minimum>
             <maximum>100</maximum>
           </feederInterval50>
           <blowInOutput30>
             <!--Moc nadmuchu przy mocy kotła 30% [%]; -->
-            <value>20</value>
+            <value>40</value>
             <minimum>10</minimum>
             <maximum>100</maximum>
           </blowInOutput30>
           <feederOperation30>
             <!--Czas podawania przy mocy kotła 30% [sek.]; -->
-            <value>3</value>
+            <value>4</value>
             <minimum>1</minimum>
             <maximum>100</maximum>
           </feederOperation30>
           <feederInterval30>
             <!--Przerwa podawania przy mocy kotła 30% [sek.]; -->
-            <value>34</value>
+            <value>77</value>
             <minimum>1</minimum>
             <maximum>100</maximum>
           </feederInterval30>
           <h2Hysteresis50>
             <!--Histereza H2 [°C]; -->
-            <value>5</value>
+            <value>10</value>
             <minimum>1</minimum>
             <maximum>30</maximum>
           </h2Hysteresis50>
           <h1Hysteresis30>
             <!--Histereza H1 [°C]; -->
-            <value>2</value>
+            <value>8</value>
             <minimum>1</minimum>
             <maximum>30</maximum>
           </h1Hysteresis30>
           <hkHysteresisBoiler>
             <!--Histereza kotła [°C]; -->
-            <value>3</value>
+            <value>15</value>
             <minimum>1</minimum>
             <maximum>30</maximum>
           </hkHysteresisBoiler>
@@ -1233,13 +1240,13 @@
           </fuelCorrection30>
           <firingUpBlowIn>
             <!--Moc nadmuchu w trybie rozpalania [%]; -->
-            <value>50</value>
+            <value>55</value>
             <minimum>10</minimum>
             <maximum>100</maximum>
           </firingUpBlowIn>
           <ignitionTestTime>
             <!--Czas przedmuchu przed rozpalaniem 1 [sek.]; -->
-            <value>3</value>
+            <value>5</value>
             <minimum>1</minimum>
             <maximum>10</maximum>
           </ignitionTestTime>
@@ -1251,7 +1258,7 @@
           </ignitionTestTime2>
           <firingUpFeedingTime>
             <!--Pełna dawka rozpalania [sek.]; -->
-            <value>60</value>
+            <value>35</value>
             <minimum>1</minimum>
             <maximum>255</maximum>
           </firingUpFeedingTime>
@@ -1263,31 +1270,31 @@
           </firingUpTime>
           <firingUpExTempDelta>
             <!--Delta spalin końca rozpalania 1 [°C]; -->
-            <value>4</value>
+            <value>6</value>
             <minimum>1</minimum>
             <maximum>60</maximum>
           </firingUpExTempDelta>
           <firingUpExTempDelta2>
             <!--Delta spalin końca rozpalania 2 [°C]; -->
-            <value>5</value>
+            <value>10</value>
             <minimum>1</minimum>
             <maximum>60</maximum>
           </firingUpExTempDelta2>
           <firingUpExTempEnd>
             <!--Temperatura spalin końca rozpalania [°C]; -->
-            <value>150</value>
+            <value>200</value>
             <minimum>30</minimum>
             <maximum>250</maximum>
           </firingUpExTempEnd>
           <testFedingTime>
             <!--Wstępne podawanie w teście rozpalania [%]; -->
-            <value>20</value>
+            <value>0</value>
             <minimum>0</minimum>
             <maximum>40</maximum>
           </testFedingTime>
           <supervisionTime>
             <!--Czas nadzoru [min.]; -->
-            <value>15</value>
+            <value>20</value>
             <minimum>1</minimum>
             <maximum>60</maximum>
           </supervisionTime>
@@ -1299,13 +1306,13 @@
           </supervisionFeedTime>
           <supervisionFeedInterval>
             <!--Przerwa wentylatora i podajnika w trybie NADZÓR [min.]; -->
-            <value>5</value>
+            <value>2</value>
             <minimum>1</minimum>
             <maximum>30</maximum>
           </supervisionFeedInterval>
           <minBlowInOutput>
             <!--Minimalna moc dmuchawy [%]; -->
-            <value>20</value>
+            <value>25</value>
             <minimum>10</minimum>
             <maximum>100</maximum>
           </minBlowInOutput>
@@ -1329,25 +1336,25 @@
           </lambdaParameterC>
           <oxygen100>
             <!--Poziom tlenu dla pracy z moca kotła 100% [*0.1%]; -->
-            <value>65</value>
+            <value>85</value>
             <minimum>1</minimum>
             <maximum>250</maximum>
           </oxygen100>
           <oxygen50>
             <!--Poziom tlenu dla pracy z moca kotła 50% [*0.1%]; -->
-            <value>80</value>
+            <value>105</value>
             <minimum>1</minimum>
             <maximum>250</maximum>
           </oxygen50>
           <oxygen30>
             <!--Poziom tlenu dla pracy z moca kotła 30% [*0.1%]; -->
-            <value>90</value>
+            <value>125</value>
             <minimum>1</minimum>
             <maximum>250</maximum>
           </oxygen30>
           <lambdaAirflowCorrRange>
             <!--Zakres korekcji nadmuchu FL [%]; -->
-            <value>15</value>
+            <value>20</value>
             <minimum>0</minimum>
             <maximum>30</maximum>
           </lambdaAirflowCorrRange>
@@ -1372,378 +1379,93 @@
         </data>
       </profile_2>
       <profile_3>
-        <name>SF22</name>
-        <reserved>0307271507150f0f0f0f3a455857595959591d232c26282828287d69555a5a5a5a5a8570</reserved>
+        <name>kopia SF15</name>
+        <reserved>0305281709150f0f0f0f1e233c57595959590f111e26282828287d69555a5a5a5a5a8d60</reserved>
         <menu0>2</menu0>
         <menu1>2</menu1>
         <data>
-          <!--Profile data; -->
+          <!--Dane profilu; -->
           <blowInOutput100>
-            <!--Moc nadmuchu przy mocy kotła 100% [%]; -->
-            <value>60</value>
+            <!--Moc nadmuchu przy mocy kotła 100% [%]; --
+
+            <value>70</value>
             <minimum>10</minimum>
             <maximum>100</maximum>
           </blowInOutput100>
           <feederOperation100>
-            <!--Czas podawania przy mocy kotła 100% [sek.]; -->
-            <value>8</value>
+            <!--Czas podawania przy mocy kotła 100% [sek.]; --
+
+            <value>5</value>
             <minimum>1</minimum>
             <maximum>100</maximum>
           </feederOperation100>
           <feederInterval100>
-            <!--Przerwa podawania przy mocy kotła 100% [sek.]; -->
-            <value>10</value>
+            <!--Przerwa podawania przy mocy kotła 100% [sek.]; --
+
+            <value>13</value>
             <minimum>1</minimum>
             <maximum>100</maximum>
           </feederInterval100>
           <blowInOutput50>
-            <!--Moc nadmuchu przy mocy kotła 50% [%]; -->
-            <value>40</value>
-            <minimum>10</minimum>
-            <maximum>100</maximum>
-          </blowInOutput50>
-          <feederOperation50>
-            <!--Czas podawania przy mocy kotła 50% [sek.]; -->
-            <value>5</value>
-            <minimum>1</minimum>
-            <maximum>100</maximum>
-          </feederOperation50>
-          <feederInterval50>
-            <!--Przerwa podawania przy mocy kotła 50% [sek.]; -->
-            <value>17</value>
-            <minimum>1</minimum>
-            <maximum>100</maximum>
-          </feederInterval50>
-          <blowInOutput30>
-            <!--Moc nadmuchu przy mocy kotła 30% [%]; -->
-            <value>30</value>
-            <minimum>10</minimum>
-            <maximum>100</maximum>
-          </blowInOutput30>
-          <feederOperation30>
-            <!--Czas podawania przy mocy kotła 30% [sek.]; -->
-            <value>5</value>
-            <minimum>1</minimum>
-            <maximum>100</maximum>
-          </feederOperation30>
-          <feederInterval30>
-            <!--Przerwa podawania przy mocy kotła 30% [sek.]; -->
-            <value>32</value>
-            <minimum>1</minimum>
-            <maximum>100</maximum>
-          </feederInterval30>
-          <h2Hysteresis50>
-            <!--Histereza H2 [°C]; -->
-            <value>5</value>
-            <minimum>1</minimum>
-            <maximum>30</maximum>
-          </h2Hysteresis50>
-          <h1Hysteresis30>
-            <!--Histereza H1 [°C]; -->
-            <value>2</value>
-            <minimum>1</minimum>
-            <maximum>30</maximum>
-          </h1Hysteresis30>
-          <hkHysteresisBoiler>
-            <!--Histereza kotła [°C]; -->
-            <value>3</value>
-            <minimum>1</minimum>
-            <maximum>30</maximum>
-          </hkHysteresisBoiler>
-          <blowInCorrectionFL>
-            <!--Wzmocnienie mocy wentylatora w algorytmie FL [%]; -->
-            <value>100</value>
-            <minimum>90</minimum>
-            <maximum>120</maximum>
-          </blowInCorrectionFL>
-          <minBoilerOutputFL>
-            <!--Minimalna moc kotła w algorytmie FL [%]; -->
-            <value>10</value>
-            <minimum>0</minimum>
-            <maximum>100</maximum>
-          </minBoilerOutputFL>
-          <maxBoilerOutputFL>
-            <!--Maksymalna moc kotła w algorytmie FL [%]; -->
-            <value>90</value>
-            <minimum>0</minimum>
-            <maximum>100</maximum>
-          </maxBoilerOutputFL>
-          <boilerParameterA>
-            <!--Parametr Kp; -->
-            <value>6</value>
-            <minimum>6</minimum>
-            <maximum>8</maximum>
-          </boilerParameterA>
-          <boilerParameterB>
-            <!--Parametr Ti; -->
-            <value>30</value>
-            <minimum>20</minimum>
-            <maximum>30</maximum>
-          </boilerParameterB>
-          <boilerParameterC>
-            <!--Parametr Td; -->
-            <value>15</value>
-            <minimum>0</minimum>
-            <maximum>75</maximum>
-          </boilerParameterC>
-          <regulationMode>
-            <!--Tryb regulacji; Tryb regulacji: 0-standard, 1-FuzyyLogic, 2-zablokowany FL-->
-            <value>0</value>
-            <minimum>0</minimum>
-            <maximum>2</maximum>
-          </regulationMode>
-          <airflowCorrection100>
-            <!--Korekta mocy nadmuchu dla 100% mocy kotła [%]; -->
-            <value>100</value>
-            <minimum>95</minimum>
-            <maximum>105</maximum>
-          </airflowCorrection100>
-          <fuelCorrection100>
-            <!--Korekta pracy podajnika dla 100% mocy kotła [sek.]; -->
-            <value>100</value>
-            <minimum>97</minimum>
-            <maximum>103</maximum>
-          </fuelCorrection100>
-          <airflowCorrection50>
-            <!--Korekta mocy nadmuchu dla 50% mocy kotła [%]; -->
-            <value>100</value>
-            <minimum>95</minimum>
-            <maximum>105</maximum>
-          </airflowCorrection50>
-          <fuelCorrection40>
-            <!--Korekta pracy podajnika dla 50% mocy kotła [sek.]; -->
-            <value>100</value>
-            <minimum>97</minimum>
-            <maximum>103</maximum>
-          </fuelCorrection40>
-          <airflowCorrection30>
-            <!--Korekta mocy nadmuchu dla 30% mocy kotła [%]; -->
-            <value>100</value>
-            <minimum>95</minimum>
-            <maximum>105</maximum>
-          </airflowCorrection30>
-          <fuelCorrection30>
-            <!--Korekta pracy podajnika dla 30% mocy kotła [sek.]; -->
-            <value>100</value>
-            <minimum>98</minimum>
-            <maximum>102</maximum>
-          </fuelCorrection30>
-          <firingUpBlowIn>
-            <!--Moc nadmuchu w trybie rozpalania [%]; -->
-            <value>40</value>
-            <minimum>10</minimum>
-            <maximum>100</maximum>
-          </firingUpBlowIn>
-          <ignitionTestTime>
-            <!--Czas przedmuchu przed rozpalaniem 1 [sek.]; -->
-            <value>3</value>
-            <minimum>1</minimum>
-            <maximum>10</maximum>
-          </ignitionTestTime>
-          <ignitionTestTime2>
-            <!--Czas przedmuchu przed rozpalaniem 2 [sek.]; -->
-            <value>10</value>
-            <minimum>1</minimum>
-            <maximum>20</maximum>
-          </ignitionTestTime2>
-          <firingUpFeedingTime>
-            <!--Pełna dawka rozpalania [sek.]; -->
-            <value>60</value>
-            <minimum>1</minimum>
-            <maximum>255</maximum>
-          </firingUpFeedingTime>
-          <firingUpTime>
-            <!--Czas rozpalania [min.]; -->
-            <value>10</value>
-            <minimum>1</minimum>
-            <maximum>20</maximum>
-          </firingUpTime>
-          <firingUpExTempDelta>
-            <!--Delta spalin końca rozpalania 1 [°C]; -->
-            <value>9</value>
-            <minimum>1</minimum>
-            <maximum>60</maximum>
-          </firingUpExTempDelta>
-          <firingUpExTempDelta2>
-            <!--Delta spalin końca rozpalania 2 [°C]; -->
-            <value>7</value>
-            <minimum>1</minimum>
-            <maximum>60</maximum>
-          </firingUpExTempDelta2>
-          <firingUpExTempEnd>
-            <!--Temperatura spalin końca rozpalania [°C]; -->
-            <value>150</value>
-            <minimum>30</minimum>
-            <maximum>250</maximum>
-          </firingUpExTempEnd>
-          <testFedingTime>
-            <!--Wstępne podawanie w teście rozpalania [%]; -->
-            <value>20</value>
-            <minimum>0</minimum>
-            <maximum>40</maximum>
-          </testFedingTime>
-          <supervisionTime>
-            <!--Czas nadzoru [min.]; -->
-            <value>30</value>
-            <minimum>1</minimum>
-            <maximum>60</maximum>
-          </supervisionTime>
-          <supervisionFeedTime>
-            <!--Czas podawania paliwa w trybie NADZÓR [sek.]; -->
-            <value>0</value>
-            <minimum>0</minimum>
-            <maximum>0</maximum>
-          </supervisionFeedTime>
-          <supervisionFeedInterval>
-            <!--Przerwa wentylatora i podajnika w trybie NADZÓR [min.]; -->
-            <value>5</value>
-            <minimum>1</minimum>
-            <maximum>30</maximum>
-          </supervisionFeedInterval>
-          <minBlowInOutput>
-            <!--Minimalna moc dmuchawy [%]; -->
-            <value>25</value>
-            <minimum>10</minimum>
-            <maximum>100</maximum>
-          </minBlowInOutput>
-          <lambdaParameterA>
-            <!--Parametr Kp Lambda; -->
-            <value>1</value>
-            <minimum>1</minimum>
-            <maximum>8</maximum>
-          </lambdaParameterA>
-          <lambdaParameterB>
-            <!--Parametr Ti Lambda; -->
-            <value>120</value>
-            <minimum>10</minimum>
-            <maximum>200</maximum>
-          </lambdaParameterB>
-          <lambdaParameterC>
-            <!--Parametr Td Lambda; -->
-            <value>0</value>
-            <minimum>0</minimum>
-            <maximum>75</maximum>
-          </lambdaParameterC>
-          <oxygen100>
-            <!--Poziom tlenu dla pracy z moca kotła 100% [*0.1%]; -->
-            <value>85</value>
-            <minimum>1</minimum>
-            <maximum>250</maximum>
-          </oxygen100>
-          <oxygen50>
-            <!--Poziom tlenu dla pracy z moca kotła 50% [*0.1%]; -->
-            <value>105</value>
-            <minimum>1</minimum>
-            <maximum>250</maximum>
-          </oxygen50>
-          <oxygen30>
-            <!--Poziom tlenu dla pracy z moca kotła 30% [*0.1%]; -->
-            <value>125</value>
-            <minimum>1</minimum>
-            <maximum>250</maximum>
-          </oxygen30>
-          <lambdaAirflowCorrRange>
-            <!--Zakres korekcji nadmuchu FL [%]; -->
-            <value>25</value>
-            <minimum>0</minimum>
-            <maximum>30</maximum>
-          </lambdaAirflowCorrRange>
-          <lambdaAveragingTime>
-            <!--Uśrednianie próbek w filtrze Lambdy [*10sek.]; -->
-            <value>3</value>
-            <minimum>0</minimum>
-            <maximum>255</maximum>
-          </lambdaAveragingTime>
-          <oxygenCorrectionFL>
-            <!--Korekta tlenu FL [%]; -->
-            <value>100</value>
-            <minimum>50</minimum>
-            <maximum>150</maximum>
-          </oxygenCorrectionFL>
-          <ecoFalParameters>
-            <!--Parametry ecoFala; Parametry ecoFALa 1-szy: minimalna moc w HZ, 2-gi: parametr A ecoFALa, 3-ci: parametr B ecoFALa  -->
-            <value>10</value>
-            <minimum>50</minimum>
-            <maximum>60</maximum>
-          </ecoFalParameters>
-        </data>
-      </profile_3>
-      <profile_4>
-        <name>SF41</name>
-        <reserved>0309281506150f0f0f0f1e375557595959590f172b26282828287d69555a5a5a5a5a1990</reserved>
-        <menu0>3</menu0>
-        <menu1>3</menu1>
-        <data>
-          <!--Profile data; -->
-          <blowInOutput100>
-            <!--Moc nadmuchu przy mocy kotła 100% [%]; -->
-            <value>85</value>
-            <minimum>10</minimum>
-            <maximum>100</maximum>
-          </blowInOutput100>
-          <feederOperation100>
-            <!--Czas podawania przy mocy kotła 100% [sek.]; -->
-            <value>8</value>
-            <minimum>1</minimum>
-            <maximum>100</maximum>
-          </feederOperation100>
-          <feederInterval100>
-            <!--Przerwa podawania przy mocy kotła 100% [sek.]; -->
-            <value>8</value>
-            <minimum>1</minimum>
-            <maximum>100</maximum>
-          </feederInterval100>
-          <blowInOutput50>
-            <!--Moc nadmuchu przy mocy kotła 50% [%]; -->
+            <!--Moc nadmuchu przy mocy kotła 50% [%]; --
+
             <value>55</value>
             <minimum>10</minimum>
             <maximum>100</maximum>
           </blowInOutput50>
           <feederOperation50>
-            <!--Czas podawania przy mocy kotła 50% [sek.]; -->
-            <value>5</value>
+            <!--Czas podawania przy mocy kotła 50% [sek.]; --
+
+            <value>4</value>
             <minimum>1</minimum>
             <maximum>100</maximum>
           </feederOperation50>
           <feederInterval50>
-            <!--Przerwa podawania przy mocy kotła 50% [sek.]; -->
-            <value>15</value>
+            <!--Przerwa podawania przy mocy kotła 50% [sek.]; --
+
+            <value>25</value>
             <minimum>1</minimum>
             <maximum>100</maximum>
           </feederInterval50>
           <blowInOutput30>
-            <!--Moc nadmuchu przy mocy kotła 30% [%]; -->
-            <value>30</value>
+            <!--Moc nadmuchu przy mocy kotła 30% [%]; --
+
+            <value>40</value>
             <minimum>10</minimum>
             <maximum>100</maximum>
           </blowInOutput30>
           <feederOperation30>
-            <!--Czas podawania przy mocy kotła 30% [sek.]; -->
-            <value>5</value>
+            <!--Czas podawania przy mocy kotła 30% [sek.]; --
+
+            <value>4</value>
             <minimum>1</minimum>
             <maximum>100</maximum>
           </feederOperation30>
           <feederInterval30>
-            <!--Przerwa podawania przy mocy kotła 30% [sek.]; -->
-            <value>28</value>
+            <!--Przerwa podawania przy mocy kotła 30% [sek.]; --
+
+            <value>49</value>
             <minimum>1</minimum>
             <maximum>100</maximum>
           </feederInterval30>
           <h2Hysteresis50>
-            <!--Histereza H2 [°C]; -->
-            <value>5</value>
+            <!--Histereza H2 [°C]; --
+
+            <value>10</value>
             <minimum>1</minimum>
             <maximum>30</maximum>
           </h2Hysteresis50>
           <h1Hysteresis30>
-            <!--Histereza H1 [°C]; -->
-            <value>2</value>
+            <!--Histereza H1 [°C]; --
+
+            <value>8</value>
             <minimum>1</minimum>
             <maximum>30</maximum>
           </h1Hysteresis30>
           <hkHysteresisBoiler>
-            <!--Histereza kotła [°C]; -->
-            <value>3</value>
+            <!--Histereza kotła [°C]; -
+
+            <value>15</value>
             <minimum>1</minimum>
             <maximum>30</maximum>
           </hkHysteresisBoiler>
@@ -1754,13 +1476,15 @@
             <maximum>120</maximum>
           </blowInCorrectionFL>
           <minBoilerOutputFL>
-            <!--Minimalna moc kotła w algorytmie FL [%]; -->
+            <!--Minimalna moc kotła w algorytmie FL [%]; --
+
             <value>10</value>
             <minimum>0</minimum>
             <maximum>100</maximum>
           </minBoilerOutputFL>
           <maxBoilerOutputFL>
-            <!--Maksymalna moc kotła w algorytmie FL [%]; -->
+            <!--Maksymalna moc kotła w algorytmie FL [%]; --
+
             <value>90</value>
             <minimum>0</minimum>
             <maximum>100</maximum>
@@ -1784,637 +1508,50 @@
             <maximum>75</maximum>
           </boilerParameterC>
           <regulationMode>
-            <!--Tryb regulacji; Tryb regulacji: 0-standard, 1-FuzyyLogic, 2-zablokowany FL-->
+            <!--Tryb regulacji; Tryb regulacji: 0-standard, 1-FuzyyLogic,
+2-zablokowany FL-->
             <value>0</value>
             <minimum>0</minimum>
             <maximum>2</maximum>
           </regulationMode>
           <airflowCorrection100>
-            <!--Korekta mocy nadmuchu dla 100% mocy kotła [%]; -->
+            <!--Korekta mocy nadmuchu dla 100% mocy kotła [%]; --
+
             <value>100</value>
             <minimum>95</minimum>
             <maximum>105</maximum>
           </airflowCorrection100>
           <fuelCorrection100>
-            <!--Korekta pracy podajnika dla 100% mocy kotła [sek.]; -->
+            <!--Korekta pracy podajnika dla 100% mocy kotła [sek.]; --
+
             <value>100</value>
             <minimum>97</minimum>
             <maximum>103</maximum>
           </fuelCorrection100>
           <airflowCorrection50>
-            <!--Korekta mocy nadmuchu dla 50% mocy kotła [%]; -->
+            <!--Korekta mocy nadmuchu dla 50% mocy kotła [%]; --
+
             <value>100</value>
             <minimum>95</minimum>
             <maximum>105</maximum>
           </airflowCorrection50>
           <fuelCorrection40>
-            <!--Korekta pracy podajnika dla 50% mocy kotła [sek.]; -->
+            <!--Korekta pracy podajnika dla 50% mocy kotła [sek.]; --
+
             <value>100</value>
             <minimum>97</minimum>
             <maximum>103</maximum>
           </fuelCorrection40>
           <airflowCorrection30>
-            <!--Korekta mocy nadmuchu dla 30% mocy kotła [%]; -->
+            <!--Korekta mocy nadmuchu dla 30% mocy kotła [%]; --
+
             <value>100</value>
             <minimum>95</minimum>
             <maximum>105</maximum>
           </airflowCorrection30>
           <fuelCorrection30>
-            <!--Korekta pracy podajnika dla 30% mocy kotła [sek.]; -->
-            <value>100</value>
-            <minimum>98</minimum>
-            <maximum>102</maximum>
-          </fuelCorrection30>
-          <firingUpBlowIn>
-            <!--Moc nadmuchu w trybie rozpalania [%]; -->
-            <value>60</value>
-            <minimum>10</minimum>
-            <maximum>100</maximum>
-          </firingUpBlowIn>
-          <ignitionTestTime>
-            <!--Czas przedmuchu przed rozpalaniem 1 [sek.]; -->
-            <value>5</value>
-            <minimum>1</minimum>
-            <maximum>10</maximum>
-          </ignitionTestTime>
-          <ignitionTestTime2>
-            <!--Czas przedmuchu przed rozpalaniem 2 [sek.]; -->
-            <value>10</value>
-            <minimum>1</minimum>
-            <maximum>20</maximum>
-          </ignitionTestTime2>
-          <firingUpFeedingTime>
-            <!--Pełna dawka rozpalania [sek.]; -->
-            <value>80</value>
-            <minimum>1</minimum>
-            <maximum>255</maximum>
-          </firingUpFeedingTime>
-          <firingUpTime>
-            <!--Czas rozpalania [min.]; -->
-            <value>10</value>
-            <minimum>1</minimum>
-            <maximum>20</maximum>
-          </firingUpTime>
-          <firingUpExTempDelta>
-            <!--Delta spalin końca rozpalania 1 [°C]; -->
-            <value>9</value>
-            <minimum>1</minimum>
-            <maximum>60</maximum>
-          </firingUpExTempDelta>
-          <firingUpExTempDelta2>
-            <!--Delta spalin końca rozpalania 2 [°C]; -->
-            <value>7</value>
-            <minimum>1</minimum>
-            <maximum>60</maximum>
-          </firingUpExTempDelta2>
-          <firingUpExTempEnd>
-            <!--Temperatura spalin końca rozpalania [°C]; -->
-            <value>150</value>
-            <minimum>30</minimum>
-            <maximum>250</maximum>
-          </firingUpExTempEnd>
-          <testFedingTime>
-            <!--Wstępne podawanie w teście rozpalania [%]; -->
-            <value>20</value>
-            <minimum>0</minimum>
-            <maximum>40</maximum>
-          </testFedingTime>
-          <supervisionTime>
-            <!--Czas nadzoru [min.]; -->
-            <value>30</value>
-            <minimum>1</minimum>
-            <maximum>60</maximum>
-          </supervisionTime>
-          <supervisionFeedTime>
-            <!--Czas podawania paliwa w trybie NADZÓR [sek.]; -->
-            <value>0</value>
-            <minimum>0</minimum>
-            <maximum>0</maximum>
-          </supervisionFeedTime>
-          <supervisionFeedInterval>
-            <!--Przerwa wentylatora i podajnika w trybie NADZÓR [min.]; -->
-            <value>5</value>
-            <minimum>1</minimum>
-            <maximum>30</maximum>
-          </supervisionFeedInterval>
-          <minBlowInOutput>
-            <!--Minimalna moc dmuchawy [%]; -->
-            <value>25</value>
-            <minimum>10</minimum>
-            <maximum>100</maximum>
-          </minBlowInOutput>
-          <lambdaParameterA>
-            <!--Parametr Kp Lambda; -->
-            <value>1</value>
-            <minimum>1</minimum>
-            <maximum>8</maximum>
-          </lambdaParameterA>
-          <lambdaParameterB>
-            <!--Parametr Ti Lambda; -->
-            <value>120</value>
-            <minimum>10</minimum>
-            <maximum>200</maximum>
-          </lambdaParameterB>
-          <lambdaParameterC>
-            <!--Parametr Td Lambda; -->
-            <value>0</value>
-            <minimum>0</minimum>
-            <maximum>75</maximum>
-          </lambdaParameterC>
-          <oxygen100>
-            <!--Poziom tlenu dla pracy z moca kotła 100% [*0.1%]; -->
-            <value>85</value>
-            <minimum>1</minimum>
-            <maximum>250</maximum>
-          </oxygen100>
-          <oxygen50>
-            <!--Poziom tlenu dla pracy z moca kotła 50% [*0.1%]; -->
-            <value>105</value>
-            <minimum>1</minimum>
-            <maximum>250</maximum>
-          </oxygen50>
-          <oxygen30>
-            <!--Poziom tlenu dla pracy z moca kotła 30% [*0.1%]; -->
-            <value>125</value>
-            <minimum>1</minimum>
-            <maximum>250</maximum>
-          </oxygen30>
-          <lambdaAirflowCorrRange>
-            <!--Zakres korekcji nadmuchu FL [%]; -->
-            <value>25</value>
-            <minimum>0</minimum>
-            <maximum>30</maximum>
-          </lambdaAirflowCorrRange>
-          <lambdaAveragingTime>
-            <!--Uśrednianie próbek w filtrze Lambdy [*10sek.]; -->
-            <value>3</value>
-            <minimum>0</minimum>
-            <maximum>255</maximum>
-          </lambdaAveragingTime>
-          <oxygenCorrectionFL>
-            <!--Korekta tlenu FL [%]; -->
-            <value>100</value>
-            <minimum>50</minimum>
-            <maximum>150</maximum>
-          </oxygenCorrectionFL>
-          <ecoFalParameters>
-            <!--Parametry ecoFala; Parametry ecoFALa 1-szy: minimalna moc w HZ, 2-gi: parametr A ecoFALa, 3-ci: parametr B ecoFALa  -->
-            <value>10</value>
-            <minimum>50</minimum>
-            <maximum>60</maximum>
-          </ecoFalParameters>
-        </data>
-      </profile_4>
-      <profile_5>
-        <name>PF21</name>
-        <reserved>0309441f0f150f0f0f0f212b32575959595911161926282828287d69555a5a5a5a5a291d</reserved>
-        <menu0>4</menu0>
-        <menu1>4</menu1>
-        <data>
-          <!--Profile data; -->
-          <blowInOutput100>
-            <!--Moc nadmuchu przy mocy kotła 100% [%]; -->
-            <value>82</value>
-            <minimum>10</minimum>
-            <maximum>100</maximum>
-          </blowInOutput100>
-          <feederOperation100>
-            <!--Czas podawania przy mocy kotła 100% [sek.]; -->
-            <value>10</value>
-            <minimum>1</minimum>
-            <maximum>100</maximum>
-          </feederOperation100>
-          <feederInterval100>
-            <!--Przerwa podawania przy mocy kotła 100% [sek.]; -->
-            <value>20</value>
-            <minimum>1</minimum>
-            <maximum>100</maximum>
-          </feederInterval100>
-          <blowInOutput50>
-            <!--Moc nadmuchu przy mocy kotła 50% [%]; -->
-            <value>52</value>
-            <minimum>10</minimum>
-            <maximum>100</maximum>
-          </blowInOutput50>
-          <feederOperation50>
-            <!--Czas podawania przy mocy kotła 50% [sek.]; -->
-            <value>5</value>
-            <minimum>1</minimum>
-            <maximum>100</maximum>
-          </feederOperation50>
-          <feederInterval50>
-            <!--Przerwa podawania przy mocy kotła 50% [sek.]; -->
-            <value>25</value>
-            <minimum>1</minimum>
-            <maximum>100</maximum>
-          </feederInterval50>
-          <blowInOutput30>
-            <!--Moc nadmuchu przy mocy kotła 30% [%]; -->
-            <value>25</value>
-            <minimum>10</minimum>
-            <maximum>100</maximum>
-          </blowInOutput30>
-          <feederOperation30>
-            <!--Czas podawania przy mocy kotła 30% [sek.]; -->
-            <value>3</value>
-            <minimum>1</minimum>
-            <maximum>100</maximum>
-          </feederOperation30>
-          <feederInterval30>
-            <!--Przerwa podawania przy mocy kotła 30% [sek.]; -->
-            <value>27</value>
-            <minimum>1</minimum>
-            <maximum>100</maximum>
-          </feederInterval30>
-          <h2Hysteresis50>
-            <!--Histereza H2 [°C]; -->
-            <value>5</value>
-            <minimum>1</minimum>
-            <maximum>30</maximum>
-          </h2Hysteresis50>
-          <h1Hysteresis30>
-            <!--Histereza H1 [°C]; -->
-            <value>2</value>
-            <minimum>1</minimum>
-            <maximum>30</maximum>
-          </h1Hysteresis30>
-          <hkHysteresisBoiler>
-            <!--Histereza kotła [°C]; -->
-            <value>3</value>
-            <minimum>1</minimum>
-            <maximum>30</maximum>
-          </hkHysteresisBoiler>
-          <blowInCorrectionFL>
-            <!--Wzmocnienie mocy wentylatora w algorytmie FL [%]; -->
-            <value>100</value>
-            <minimum>90</minimum>
-            <maximum>120</maximum>
-          </blowInCorrectionFL>
-          <minBoilerOutputFL>
-            <!--Minimalna moc kotła w algorytmie FL [%]; -->
-            <value>10</value>
-            <minimum>0</minimum>
-            <maximum>100</maximum>
-          </minBoilerOutputFL>
-          <maxBoilerOutputFL>
-            <!--Maksymalna moc kotła w algorytmie FL [%]; -->
-            <value>90</value>
-            <minimum>0</minimum>
-            <maximum>100</maximum>
-          </maxBoilerOutputFL>
-          <boilerParameterA>
-            <!--Parametr Kp; -->
-            <value>6</value>
-            <minimum>6</minimum>
-            <maximum>8</maximum>
-          </boilerParameterA>
-          <boilerParameterB>
-            <!--Parametr Ti; -->
-            <value>30</value>
-            <minimum>20</minimum>
-            <maximum>30</maximum>
-          </boilerParameterB>
-          <boilerParameterC>
-            <!--Parametr Td; -->
-            <value>15</value>
-            <minimum>0</minimum>
-            <maximum>75</maximum>
-          </boilerParameterC>
-          <regulationMode>
-            <!--Tryb regulacji; Tryb regulacji: 0-standard, 1-FuzyyLogic, 2-zablokowany FL-->
-            <value>0</value>
-            <minimum>0</minimum>
-            <maximum>2</maximum>
-          </regulationMode>
-          <airflowCorrection100>
-            <!--Korekta mocy nadmuchu dla 100% mocy kotła [%]; -->
-            <value>100</value>
-            <minimum>95</minimum>
-            <maximum>105</maximum>
-          </airflowCorrection100>
-          <fuelCorrection100>
-            <!--Korekta pracy podajnika dla 100% mocy kotła [sek.]; -->
-            <value>100</value>
-            <minimum>97</minimum>
-            <maximum>103</maximum>
-          </fuelCorrection100>
-          <airflowCorrection50>
-            <!--Korekta mocy nadmuchu dla 50% mocy kotła [%]; -->
-            <value>100</value>
-            <minimum>95</minimum>
-            <maximum>105</maximum>
-          </airflowCorrection50>
-          <fuelCorrection40>
-            <!--Korekta pracy podajnika dla 50% mocy kotła [sek.]; -->
-            <value>100</value>
-            <minimum>97</minimum>
-            <maximum>103</maximum>
-          </fuelCorrection40>
-          <airflowCorrection30>
-            <!--Korekta mocy nadmuchu dla 30% mocy kotła [%]; -->
-            <value>100</value>
-            <minimum>95</minimum>
-            <maximum>105</maximum>
-          </airflowCorrection30>
-          <fuelCorrection30>
-            <!--Korekta pracy podajnika dla 30% mocy kotła [sek.]; -->
-            <value>100</value>
-            <minimum>98</minimum>
-            <maximum>102</maximum>
-          </fuelCorrection30>
-          <firingUpBlowIn>
-            <!--Moc nadmuchu w trybie rozpalania [%]; -->
-            <value>70</value>
-            <minimum>10</minimum>
-            <maximum>100</maximum>
-          </firingUpBlowIn>
-          <ignitionTestTime>
-            <!--Czas przedmuchu przed rozpalaniem 1 [sek.]; -->
-            <value>3</value>
-            <minimum>1</minimum>
-            <maximum>10</maximum>
-          </ignitionTestTime>
-          <ignitionTestTime2>
-            <!--Czas przedmuchu przed rozpalaniem 2 [sek.]; -->
-            <value>10</value>
-            <minimum>1</minimum>
-            <maximum>20</maximum>
-          </ignitionTestTime2>
-          <firingUpFeedingTime>
-            <!--Pełna dawka rozpalania [sek.]; -->
-            <value>50</value>
-            <minimum>1</minimum>
-            <maximum>255</maximum>
-          </firingUpFeedingTime>
-          <firingUpTime>
-            <!--Czas rozpalania [min.]; -->
-            <value>10</value>
-            <minimum>1</minimum>
-            <maximum>20</maximum>
-          </firingUpTime>
-          <firingUpExTempDelta>
-            <!--Delta spalin końca rozpalania 1 [°C]; -->
-            <value>9</value>
-            <minimum>1</minimum>
-            <maximum>60</maximum>
-          </firingUpExTempDelta>
-          <firingUpExTempDelta2>
-            <!--Delta spalin końca rozpalania 2 [°C]; -->
-            <value>7</value>
-            <minimum>1</minimum>
-            <maximum>60</maximum>
-          </firingUpExTempDelta2>
-          <firingUpExTempEnd>
-            <!--Temperatura spalin końca rozpalania [°C]; -->
-            <value>150</value>
-            <minimum>30</minimum>
-            <maximum>250</maximum>
-          </firingUpExTempEnd>
-          <testFedingTime>
-            <!--Wstępne podawanie w teście rozpalania [%]; -->
-            <value>20</value>
-            <minimum>0</minimum>
-            <maximum>40</maximum>
-          </testFedingTime>
-          <supervisionTime>
-            <!--Czas nadzoru [min.]; -->
-            <value>30</value>
-            <minimum>1</minimum>
-            <maximum>60</maximum>
-          </supervisionTime>
-          <supervisionFeedTime>
-            <!--Czas podawania paliwa w trybie NADZÓR [sek.]; -->
-            <value>0</value>
-            <minimum>0</minimum>
-            <maximum>0</maximum>
-          </supervisionFeedTime>
-          <supervisionFeedInterval>
-            <!--Przerwa wentylatora i podajnika w trybie NADZÓR [min.]; -->
-            <value>5</value>
-            <minimum>1</minimum>
-            <maximum>30</maximum>
-          </supervisionFeedInterval>
-          <minBlowInOutput>
-            <!--Minimalna moc dmuchawy [%]; -->
-            <value>30</value>
-            <minimum>10</minimum>
-            <maximum>100</maximum>
-          </minBlowInOutput>
-          <lambdaParameterA>
-            <!--Parametr Kp Lambda; -->
-            <value>1</value>
-            <minimum>1</minimum>
-            <maximum>8</maximum>
-          </lambdaParameterA>
-          <lambdaParameterB>
-            <!--Parametr Ti Lambda; -->
-            <value>120</value>
-            <minimum>10</minimum>
-            <maximum>200</maximum>
-          </lambdaParameterB>
-          <lambdaParameterC>
-            <!--Parametr Td Lambda; -->
-            <value>0</value>
-            <minimum>0</minimum>
-            <maximum>75</maximum>
-          </lambdaParameterC>
-          <oxygen100>
-            <!--Poziom tlenu dla pracy z moca kotła 100% [*0.1%]; -->
-            <value>85</value>
-            <minimum>1</minimum>
-            <maximum>250</maximum>
-          </oxygen100>
-          <oxygen50>
-            <!--Poziom tlenu dla pracy z moca kotła 50% [*0.1%]; -->
-            <value>105</value>
-            <minimum>1</minimum>
-            <maximum>250</maximum>
-          </oxygen50>
-          <oxygen30>
-            <!--Poziom tlenu dla pracy z moca kotła 30% [*0.1%]; -->
-            <value>125</value>
-            <minimum>1</minimum>
-            <maximum>250</maximum>
-          </oxygen30>
-          <lambdaAirflowCorrRange>
-            <!--Zakres korekcji nadmuchu FL [%]; -->
-            <value>25</value>
-            <minimum>0</minimum>
-            <maximum>30</maximum>
-          </lambdaAirflowCorrRange>
-          <lambdaAveragingTime>
-            <!--Uśrednianie próbek w filtrze Lambdy [*10sek.]; -->
-            <value>3</value>
-            <minimum>0</minimum>
-            <maximum>255</maximum>
-          </lambdaAveragingTime>
-          <oxygenCorrectionFL>
-            <!--Korekta tlenu FL [%]; -->
-            <value>100</value>
-            <minimum>50</minimum>
-            <maximum>150</maximum>
-          </oxygenCorrectionFL>
-          <ecoFalParameters>
-            <!--Parametry ecoFala; Parametry ecoFALa 1-szy: minimalna moc w HZ, 2-gi: parametr A ecoFALa, 3-ci: parametr B ecoFALa  -->
-            <value>10</value>
-            <minimum>50</minimum>
-            <maximum>60</maximum>
-          </ecoFalParameters>
-        </data>
-      </profile_5>
-      <profile_6>
-        <name>SF12</name>
-        <reserved>030835150a150f0f0f0f232d3c575959595912171e26282828287d69555a5a5a5a5a6e73</reserved>
-        <menu0>5</menu0>
-        <menu1>5</menu1>
-        <data>
-          <!--Profile data; -->
-          <blowInOutput100>
-            <!--Moc nadmuchu przy mocy kotła 100% [%]; -->
-            <value>60</value>
-            <minimum>10</minimum>
-            <maximum>100</maximum>
-          </blowInOutput100>
-          <feederOperation100>
-            <!--Czas podawania przy mocy kotła 100% [sek.]; -->
-            <value>5</value>
-            <minimum>1</minimum>
-            <maximum>100</maximum>
-          </feederOperation100>
-          <feederInterval100>
-            <!--Przerwa podawania przy mocy kotła 100% [sek.]; -->
-            <value>15</value>
-            <minimum>1</minimum>
-            <maximum>100</maximum>
-          </feederInterval100>
-          <blowInOutput50>
-            <!--Moc nadmuchu przy mocy kotła 50% [%]; -->
-            <value>35</value>
-            <minimum>10</minimum>
-            <maximum>100</maximum>
-          </blowInOutput50>
-          <feederOperation50>
-            <!--Czas podawania przy mocy kotła 50% [sek.]; -->
-            <value>5</value>
-            <minimum>1</minimum>
-            <maximum>100</maximum>
-          </feederOperation50>
-          <feederInterval50>
-            <!--Przerwa podawania przy mocy kotła 50% [sek.]; -->
-            <value>35</value>
-            <minimum>1</minimum>
-            <maximum>100</maximum>
-          </feederInterval50>
-          <blowInOutput30>
-            <!--Moc nadmuchu przy mocy kotła 30% [%]; -->
-            <value>30</value>
-            <minimum>10</minimum>
-            <maximum>100</maximum>
-          </blowInOutput30>
-          <feederOperation30>
-            <!--Czas podawania przy mocy kotła 30% [sek.]; -->
-            <value>5</value>
-            <minimum>1</minimum>
-            <maximum>100</maximum>
-          </feederOperation30>
-          <feederInterval30>
-            <!--Przerwa podawania przy mocy kotła 30% [sek.]; -->
-            <value>62</value>
-            <minimum>1</minimum>
-            <maximum>100</maximum>
-          </feederInterval30>
-          <h2Hysteresis50>
-            <!--Histereza H2 [°C]; -->
-            <value>5</value>
-            <minimum>1</minimum>
-            <maximum>30</maximum>
-          </h2Hysteresis50>
-          <h1Hysteresis30>
-            <!--Histereza H1 [°C]; -->
-            <value>2</value>
-            <minimum>1</minimum>
-            <maximum>30</maximum>
-          </h1Hysteresis30>
-          <hkHysteresisBoiler>
-            <!--Histereza kotła [°C]; -->
-            <value>3</value>
-            <minimum>1</minimum>
-            <maximum>30</maximum>
-          </hkHysteresisBoiler>
-          <blowInCorrectionFL>
-            <!--Wzmocnienie mocy wentylatora w algorytmie FL [%]; -->
-            <value>100</value>
-            <minimum>90</minimum>
-            <maximum>120</maximum>
-          </blowInCorrectionFL>
-          <minBoilerOutputFL>
-            <!--Minimalna moc kotła w algorytmie FL [%]; -->
-            <value>10</value>
-            <minimum>0</minimum>
-            <maximum>100</maximum>
-          </minBoilerOutputFL>
-          <maxBoilerOutputFL>
-            <!--Maksymalna moc kotła w algorytmie FL [%]; -->
-            <value>90</value>
-            <minimum>0</minimum>
-            <maximum>100</maximum>
-          </maxBoilerOutputFL>
-          <boilerParameterA>
-            <!--Parametr Kp; -->
-            <value>6</value>
-            <minimum>6</minimum>
-            <maximum>8</maximum>
-          </boilerParameterA>
-          <boilerParameterB>
-            <!--Parametr Ti; -->
-            <value>30</value>
-            <minimum>20</minimum>
-            <maximum>30</maximum>
-          </boilerParameterB>
-          <boilerParameterC>
-            <!--Parametr Td; -->
-            <value>15</value>
-            <minimum>0</minimum>
-            <maximum>75</maximum>
-          </boilerParameterC>
-          <regulationMode>
-            <!--Tryb regulacji; Tryb regulacji: 0-standard, 1-FuzyyLogic, 2-zablokowany FL-->
-            <value>0</value>
-            <minimum>0</minimum>
-            <maximum>2</maximum>
-          </regulationMode>
-          <airflowCorrection100>
-            <!--Korekta mocy nadmuchu dla 100% mocy kotła [%]; -->
-            <value>100</value>
-            <minimum>95</minimum>
-            <maximum>105</maximum>
-          </airflowCorrection100>
-          <fuelCorrection100>
-            <!--Korekta pracy podajnika dla 100% mocy kotła [sek.]; -->
-            <value>100</value>
-            <minimum>97</minimum>
-            <maximum>103</maximum>
-          </fuelCorrection100>
-          <airflowCorrection50>
-            <!--Korekta mocy nadmuchu dla 50% mocy kotła [%]; -->
-            <value>100</value>
-            <minimum>95</minimum>
-            <maximum>105</maximum>
-          </airflowCorrection50>
-          <fuelCorrection40>
-            <!--Korekta pracy podajnika dla 50% mocy kotła [sek.]; -->
-            <value>100</value>
-            <minimum>97</minimum>
-            <maximum>103</maximum>
-          </fuelCorrection40>
-          <airflowCorrection30>
-            <!--Korekta mocy nadmuchu dla 30% mocy kotła [%]; -->
-            <value>100</value>
-            <minimum>95</minimum>
-            <maximum>105</maximum>
-          </airflowCorrection30>
-          <fuelCorrection30>
-            <!--Korekta pracy podajnika dla 30% mocy kotła [sek.]; -->
+            <!--Korekta pracy podajnika dla 30% mocy kotła [sek.]; --
+
             <value>100</value>
             <minimum>98</minimum>
             <maximum>102</maximum>
@@ -2427,7 +1564,7 @@
           </firingUpBlowIn>
           <ignitionTestTime>
             <!--Czas przedmuchu przed rozpalaniem 1 [sek.]; -->
-            <value>3</value>
+            <value>5</value>
             <minimum>1</minimum>
             <maximum>10</maximum>
           </ignitionTestTime>
@@ -2438,8 +1575,9 @@
             <maximum>20</maximum>
           </ignitionTestTime2>
           <firingUpFeedingTime>
-            <!--Pełna dawka rozpalania [sek.]; -->
-            <value>33</value>
+            <!--Pełna dawka rozpalania [sek.]; --
+
+            <value>38</value>
             <minimum>1</minimum>
             <maximum>255</maximum>
           </firingUpFeedingTime>
@@ -2450,44 +1588,50 @@
             <maximum>20</maximum>
           </firingUpTime>
           <firingUpExTempDelta>
-            <!--Delta spalin końca rozpalania 1 [°C]; -->
-            <value>9</value>
+            <!--Delta spalin końca rozpalania 1 [°C]; -
+
+            <value>6</value>
             <minimum>1</minimum>
             <maximum>60</maximum>
           </firingUpExTempDelta>
           <firingUpExTempDelta2>
-            <!--Delta spalin końca rozpalania 2 [°C]; -->
-            <value>7</value>
+            <!--Delta spalin końca rozpalania 2 [°C]; -
+
+            <value>10</value>
             <minimum>1</minimum>
             <maximum>60</maximum>
           </firingUpExTempDelta2>
           <firingUpExTempEnd>
-            <!--Temperatura spalin końca rozpalania [°C]; -->
-            <value>150</value>
+            <!--Temperatura spalin końca rozpalania [°C]; -
+
+            <value>200</value>
             <minimum>30</minimum>
             <maximum>250</maximum>
           </firingUpExTempEnd>
           <testFedingTime>
-            <!--Wstępne podawanie w teście rozpalania [%]; -->
-            <value>20</value>
+            <!--Wstępne podawanie w teście rozpalania [%]; -
+
+            <value>0</value>
             <minimum>0</minimum>
             <maximum>40</maximum>
           </testFedingTime>
           <supervisionTime>
             <!--Czas nadzoru [min.]; -->
-            <value>30</value>
+            <value>20</value>
             <minimum>1</minimum>
             <maximum>60</maximum>
           </supervisionTime>
           <supervisionFeedTime>
-            <!--Czas podawania paliwa w trybie NADZÓR [sek.]; -->
+            <!--Czas podawania paliwa w trybie NADZÓR [sek.]; --
+
             <value>0</value>
             <minimum>0</minimum>
             <maximum>0</maximum>
           </supervisionFeedTime>
           <supervisionFeedInterval>
-            <!--Przerwa wentylatora i podajnika w trybie NADZÓR [min.]; -->
-            <value>5</value>
+            <!--Przerwa wentylatora i podajnika w trybie NADZÓR [min.]; --
+
+            <value>2</value>
             <minimum>1</minimum>
             <maximum>30</maximum>
           </supervisionFeedInterval>
@@ -2516,26 +1660,1021 @@
             <maximum>75</maximum>
           </lambdaParameterC>
           <oxygen100>
-            <!--Poziom tlenu dla pracy z moca kotła 100% [*0.1%]; -->
+            <!--Poziom tlenu dla pracy z moca kotła 100% [*0.1%]; --
+
             <value>85</value>
             <minimum>1</minimum>
             <maximum>250</maximum>
           </oxygen100>
           <oxygen50>
-            <!--Poziom tlenu dla pracy z moca kotła 50% [*0.1%]; -->
+            <!--Poziom tlenu dla pracy z moca kotła 50% [*0.1%]; --
+
             <value>105</value>
             <minimum>1</minimum>
             <maximum>250</maximum>
           </oxygen50>
           <oxygen30>
-            <!--Poziom tlenu dla pracy z moca kotła 30% [*0.1%]; -->
+            <!--Poziom tlenu dla pracy z moca kotła 30% [*0.1%]; --
+
             <value>125</value>
             <minimum>1</minimum>
             <maximum>250</maximum>
           </oxygen30>
           <lambdaAirflowCorrRange>
             <!--Zakres korekcji nadmuchu FL [%]; -->
+            <value>20</value>
+            <minimum>0</minimum>
+            <maximum>30</maximum>
+          </lambdaAirflowCorrRange>
+          <lambdaAveragingTime>
+            <!--Uśrednianie próbek w filtrze Lambdy [*10sek.]; -
+
+            <value>3</value>
+            <minimum>0</minimum>
+            <maximum>255</maximum>
+          </lambdaAveragingTime>
+          <oxygenCorrectionFL>
+            <!--Korekta tlenu FL [%]; -->
+            <value>100</value>
+            <minimum>50</minimum>
+            <maximum>150</maximum>
+          </oxygenCorrectionFL>
+          <ecoFalParameters>
+            <!--Parametry ecoFala; Parametry ecoFALa 1-szy: minimalna moc w
+HZ, 2-gi: parametr A ecoFALa, 3-ci: parametr B ecoFALa  -->
+            <value>10</value>
+            <minimum>50</minimum>
+            <maximum>60</maximum>
+          </ecoFalParameters>
+        </data>
+      </profile_3>
+      <profile_4>
+        <name>kopia SF22</name>
+        <reserved>0307271507150f0f0f0f3a455857595959591d232c26282828287d69555a5a5a5a5a8570</reserved>
+        <menu0>3</menu0>
+        <menu1>3</menu1>
+        <data>
+          <!--Dane profilu; -->
+          <blowInOutput100>
+            <!--Moc nadmuchu przy mocy kotła 100% [%]; --
+
+            <value>60</value>
+            <minimum>10</minimum>
+            <maximum>100</maximum>
+          </blowInOutput100>
+          <feederOperation100>
+            <!--Czas podawania przy mocy kotła 100% [sek.]; --
+
+            <value>4</value>
+            <minimum>1</minimum>
+            <maximum>100</maximum>
+          </feederOperation100>
+          <feederInterval100>
+            <!--Przerwa podawania przy mocy kotła 100% [sek.]; --
+
+            <value>6</value>
+            <minimum>1</minimum>
+            <maximum>100</maximum>
+          </feederInterval100>
+          <blowInOutput50>
+            <!--Moc nadmuchu przy mocy kotła 50% [%]; --
+
+            <value>40</value>
+            <minimum>10</minimum>
+            <maximum>100</maximum>
+          </blowInOutput50>
+          <feederOperation50>
+            <!--Czas podawania przy mocy kotła 50% [sek.]; --
+
+            <value>4</value>
+            <minimum>1</minimum>
+            <maximum>100</maximum>
+          </feederOperation50>
+          <feederInterval50>
+            <!--Przerwa podawania przy mocy kotła 50% [sek.]; --
+
+            <value>16</value>
+            <minimum>1</minimum>
+            <maximum>100</maximum>
+          </feederInterval50>
+          <blowInOutput30>
+            <!--Moc nadmuchu przy mocy kotła 30% [%]; --
+
+            <value>30</value>
+            <minimum>10</minimum>
+            <maximum>100</maximum>
+          </blowInOutput30>
+          <feederOperation30>
+            <!--Czas podawania przy mocy kotła 30% [sek.]; --
+
+            <value>4</value>
+            <minimum>1</minimum>
+            <maximum>100</maximum>
+          </feederOperation30>
+          <feederInterval30>
+            <!--Przerwa podawania przy mocy kotła 30% [sek.]; --
+
+            <value>32</value>
+            <minimum>1</minimum>
+            <maximum>100</maximum>
+          </feederInterval30>
+          <h2Hysteresis50>
+            <!--Histereza H2 [°C]; --
+
+            <value>10</value>
+            <minimum>1</minimum>
+            <maximum>30</maximum>
+          </h2Hysteresis50>
+          <h1Hysteresis30>
+            <!--Histereza H1 [°C]; --
+
+            <value>8</value>
+            <minimum>1</minimum>
+            <maximum>30</maximum>
+          </h1Hysteresis30>
+          <hkHysteresisBoiler>
+            <!--Histereza kotła [°C]; -
+
+            <value>15</value>
+            <minimum>1</minimum>
+            <maximum>30</maximum>
+          </hkHysteresisBoiler>
+          <blowInCorrectionFL>
+            <!--Wzmocnienie mocy wentylatora w algorytmie FL [%]; -->
+            <value>100</value>
+            <minimum>90</minimum>
+            <maximum>120</maximum>
+          </blowInCorrectionFL>
+          <minBoilerOutputFL>
+            <!--Minimalna moc kotła w algorytmie FL [%]; --
+
+            <value>10</value>
+            <minimum>0</minimum>
+            <maximum>100</maximum>
+          </minBoilerOutputFL>
+          <maxBoilerOutputFL>
+            <!--Maksymalna moc kotła w algorytmie FL [%]; --
+
+            <value>90</value>
+            <minimum>0</minimum>
+            <maximum>100</maximum>
+          </maxBoilerOutputFL>
+          <boilerParameterA>
+            <!--Parametr Kp; -->
+            <value>6</value>
+            <minimum>6</minimum>
+            <maximum>8</maximum>
+          </boilerParameterA>
+          <boilerParameterB>
+            <!--Parametr Ti; -->
+            <value>30</value>
+            <minimum>20</minimum>
+            <maximum>30</maximum>
+          </boilerParameterB>
+          <boilerParameterC>
+            <!--Parametr Td; -->
+            <value>15</value>
+            <minimum>0</minimum>
+            <maximum>75</maximum>
+          </boilerParameterC>
+          <regulationMode>
+            <!--Tryb regulacji; Tryb regulacji: 0-standard, 1-FuzyyLogic,
+2-zablokowany FL-->
+            <value>0</value>
+            <minimum>0</minimum>
+            <maximum>2</maximum>
+          </regulationMode>
+          <airflowCorrection100>
+            <!--Korekta mocy nadmuchu dla 100% mocy kotła [%]; --
+
+            <value>100</value>
+            <minimum>95</minimum>
+            <maximum>105</maximum>
+          </airflowCorrection100>
+          <fuelCorrection100>
+            <!--Korekta pracy podajnika dla 100% mocy kotła [sek.]; --
+
+            <value>100</value>
+            <minimum>97</minimum>
+            <maximum>103</maximum>
+          </fuelCorrection100>
+          <airflowCorrection50>
+            <!--Korekta mocy nadmuchu dla 50% mocy kotła [%]; --
+
+            <value>100</value>
+            <minimum>95</minimum>
+            <maximum>105</maximum>
+          </airflowCorrection50>
+          <fuelCorrection40>
+            <!--Korekta pracy podajnika dla 50% mocy kotła [sek.]; --
+
+            <value>100</value>
+            <minimum>97</minimum>
+            <maximum>103</maximum>
+          </fuelCorrection40>
+          <airflowCorrection30>
+            <!--Korekta mocy nadmuchu dla 30% mocy kotła [%]; --
+
+            <value>100</value>
+            <minimum>95</minimum>
+            <maximum>105</maximum>
+          </airflowCorrection30>
+          <fuelCorrection30>
+            <!--Korekta pracy podajnika dla 30% mocy kotła [sek.]; --
+
+            <value>100</value>
+            <minimum>98</minimum>
+            <maximum>102</maximum>
+          </fuelCorrection30>
+          <firingUpBlowIn>
+            <!--Moc nadmuchu w trybie rozpalania [%]; -->
+            <value>40</value>
+            <minimum>10</minimum>
+            <maximum>100</maximum>
+          </firingUpBlowIn>
+          <ignitionTestTime>
+            <!--Czas przedmuchu przed rozpalaniem 1 [sek.]; -->
+            <value>5</value>
+            <minimum>1</minimum>
+            <maximum>10</maximum>
+          </ignitionTestTime>
+          <ignitionTestTime2>
+            <!--Czas przedmuchu przed rozpalaniem 2 [sek.]; -->
+            <value>10</value>
+            <minimum>1</minimum>
+            <maximum>20</maximum>
+          </ignitionTestTime2>
+          <firingUpFeedingTime>
+            <!--Pełna dawka rozpalania [sek.]; --
+
+            <value>55</value>
+            <minimum>1</minimum>
+            <maximum>255</maximum>
+          </firingUpFeedingTime>
+          <firingUpTime>
+            <!--Czas rozpalania [min.]; -->
+            <value>10</value>
+            <minimum>1</minimum>
+            <maximum>20</maximum>
+          </firingUpTime>
+          <firingUpExTempDelta>
+            <!--Delta spalin końca rozpalania 1 [°C]; -
+
+            <value>6</value>
+            <minimum>1</minimum>
+            <maximum>60</maximum>
+          </firingUpExTempDelta>
+          <firingUpExTempDelta2>
+            <!--Delta spalin końca rozpalania 2 [°C]; -
+
+            <value>10</value>
+            <minimum>1</minimum>
+            <maximum>60</maximum>
+          </firingUpExTempDelta2>
+          <firingUpExTempEnd>
+            <!--Temperatura spalin końca rozpalania [°C]; -
+
+            <value>200</value>
+            <minimum>30</minimum>
+            <maximum>250</maximum>
+          </firingUpExTempEnd>
+          <testFedingTime>
+            <!--Wstępne podawanie w teście rozpalania [%]; -
+
+            <value>0</value>
+            <minimum>0</minimum>
+            <maximum>40</maximum>
+          </testFedingTime>
+          <supervisionTime>
+            <!--Czas nadzoru [min.]; -->
+            <value>20</value>
+            <minimum>1</minimum>
+            <maximum>60</maximum>
+          </supervisionTime>
+          <supervisionFeedTime>
+            <!--Czas podawania paliwa w trybie NADZÓR [sek.]; --
+
+            <value>0</value>
+            <minimum>0</minimum>
+            <maximum>0</maximum>
+          </supervisionFeedTime>
+          <supervisionFeedInterval>
+            <!--Przerwa wentylatora i podajnika w trybie NADZÓR [min.]; --
+
+            <value>2</value>
+            <minimum>1</minimum>
+            <maximum>30</maximum>
+          </supervisionFeedInterval>
+          <minBlowInOutput>
+            <!--Minimalna moc dmuchawy [%]; -->
             <value>25</value>
+            <minimum>10</minimum>
+            <maximum>100</maximum>
+          </minBlowInOutput>
+          <lambdaParameterA>
+            <!--Parametr Kp Lambda; -->
+            <value>1</value>
+            <minimum>1</minimum>
+            <maximum>8</maximum>
+          </lambdaParameterA>
+          <lambdaParameterB>
+            <!--Parametr Ti Lambda; -->
+            <value>120</value>
+            <minimum>10</minimum>
+            <maximum>200</maximum>
+          </lambdaParameterB>
+          <lambdaParameterC>
+            <!--Parametr Td Lambda; -->
+            <value>0</value>
+            <minimum>0</minimum>
+            <maximum>75</maximum>
+          </lambdaParameterC>
+          <oxygen100>
+            <!--Poziom tlenu dla pracy z moca kotła 100% [*0.1%]; --
+
+            <value>85</value>
+            <minimum>1</minimum>
+            <maximum>250</maximum>
+          </oxygen100>
+          <oxygen50>
+            <!--Poziom tlenu dla pracy z moca kotła 50% [*0.1%]; --
+
+            <value>105</value>
+            <minimum>1</minimum>
+            <maximum>250</maximum>
+          </oxygen50>
+          <oxygen30>
+            <!--Poziom tlenu dla pracy z moca kotła 30% [*0.1%]; --
+
+            <value>125</value>
+            <minimum>1</minimum>
+            <maximum>250</maximum>
+          </oxygen30>
+          <lambdaAirflowCorrRange>
+            <!--Zakres korekcji nadmuchu FL [%]; -->
+            <value>20</value>
+            <minimum>0</minimum>
+            <maximum>30</maximum>
+          </lambdaAirflowCorrRange>
+          <lambdaAveragingTime>
+            <!--Uśrednianie próbek w filtrze Lambdy [*10sek.]; -
+
+            <value>3</value>
+            <minimum>0</minimum>
+            <maximum>255</maximum>
+          </lambdaAveragingTime>
+          <oxygenCorrectionFL>
+            <!--Korekta tlenu FL [%]; -->
+            <value>100</value>
+            <minimum>50</minimum>
+            <maximum>150</maximum>
+          </oxygenCorrectionFL>
+          <ecoFalParameters>
+            <!--Parametry ecoFala; Parametry ecoFALa 1-szy: minimalna moc w
+HZ, 2-gi: parametr A ecoFALa, 3-ci: parametr B ecoFALa  -->
+            <value>10</value>
+            <minimum>50</minimum>
+            <maximum>60</maximum>
+          </ecoFalParameters>
+        </data>
+      </profile_4>
+      <profile_5>
+        <name>kopia SF31</name>
+        <reserved>0309281506150f0f0f0f1e375557595959590f172b26282828287d6955
+5a5a5a5a5a1990</reserved>
+        <menu0>4</menu0>
+        <menu1>4</menu1>
+        <data>
+          <!--Dane profilu; -->
+          <blowInOutput100>
+            <!--Moc nadmuchu przy mocy kotła 100% [%]; --
+
+            <value>90</value>
+            <minimum>10</minimum>
+            <maximum>100</maximum>
+          </blowInOutput100>
+          <feederOperation100>
+            <!--Czas podawania przy mocy kotła 100% [sek.]; --
+
+            <value>4</value>
+            <minimum>1</minimum>
+            <maximum>100</maximum>
+          </feederOperation100>
+          <feederInterval100>
+            <!--Przerwa podawania przy mocy kotła 100% [sek.]; --
+
+            <value>8</value>
+            <minimum>1</minimum>
+            <maximum>100</maximum>
+          </feederInterval100>
+          <blowInOutput50>
+            <!--Moc nadmuchu przy mocy kotła 50% [%]; --
+
+            <value>60</value>
+            <minimum>10</minimum>
+            <maximum>100</maximum>
+          </blowInOutput50>
+          <feederOperation50>
+            <!--Czas podawania przy mocy kotła 50% [sek.]; --
+
+            <value>4</value>
+            <minimum>1</minimum>
+            <maximum>100</maximum>
+          </feederOperation50>
+          <feederInterval50>
+            <!--Przerwa podawania przy mocy kotła 50% [sek.]; --
+
+            <value>19</value>
+            <minimum>1</minimum>
+            <maximum>100</maximum>
+          </feederInterval50>
+          <blowInOutput30>
+            <!--Moc nadmuchu przy mocy kotła 30% [%]; --
+
+            <value>28</value>
+            <minimum>10</minimum>
+            <maximum>100</maximum>
+          </blowInOutput30>
+          <feederOperation30>
+            <!--Czas podawania przy mocy kotła 30% [sek.]; --
+
+            <value>4</value>
+            <minimum>1</minimum>
+            <maximum>100</maximum>
+          </feederOperation30>
+          <feederInterval30>
+            <!--Przerwa podawania przy mocy kotła 30% [sek.]; --
+
+            <value>38</value>
+            <minimum>1</minimum>
+            <maximum>100</maximum>
+          </feederInterval30>
+          <h2Hysteresis50>
+            <!--Histereza H2 [°C]; --
+
+            <value>10</value>
+            <minimum>1</minimum>
+            <maximum>30</maximum>
+          </h2Hysteresis50>
+          <h1Hysteresis30>
+            <!--Histereza H1 [°C]; --
+
+            <value>8</value>
+            <minimum>1</minimum>
+            <maximum>30</maximum>
+          </h1Hysteresis30>
+          <hkHysteresisBoiler>
+            <!--Histereza kotła [°C]; -
+
+            <value>15</value>
+            <minimum>1</minimum>
+            <maximum>30</maximum>
+          </hkHysteresisBoiler>
+          <blowInCorrectionFL>
+            <!--Wzmocnienie mocy wentylatora w algorytmie FL [%]; -->
+            <value>100</value>
+            <minimum>90</minimum>
+            <maximum>120</maximum>
+          </blowInCorrectionFL>
+          <minBoilerOutputFL>
+            <!--Minimalna moc kotła w algorytmie FL [%]; --
+
+            <value>10</value>
+            <minimum>0</minimum>
+            <maximum>100</maximum>
+          </minBoilerOutputFL>
+          <maxBoilerOutputFL>
+            <!--Maksymalna moc kotła w algorytmie FL [%]; --
+
+            <value>90</value>
+            <minimum>0</minimum>
+            <maximum>100</maximum>
+          </maxBoilerOutputFL>
+          <boilerParameterA>
+            <!--Parametr Kp; -->
+            <value>6</value>
+            <minimum>6</minimum>
+            <maximum>8</maximum>
+          </boilerParameterA>
+          <boilerParameterB>
+            <!--Parametr Ti; -->
+            <value>30</value>
+            <minimum>20</minimum>
+            <maximum>30</maximum>
+          </boilerParameterB>
+          <boilerParameterC>
+            <!--Parametr Td; -->
+            <value>15</value>
+            <minimum>0</minimum>
+            <maximum>75</maximum>
+          </boilerParameterC>
+          <regulationMode>
+            <!--Tryb regulacji; Tryb regulacji: 0-standard, 1-FuzyyLogic,
+2-zablokowany FL-->
+            <value>0</value>
+            <minimum>0</minimum>
+            <maximum>2</maximum>
+          </regulationMode>
+          <airflowCorrection100>
+            <!--Korekta mocy nadmuchu dla 100% mocy kotła [%]; --
+
+            <value>100</value>
+            <minimum>95</minimum>
+            <maximum>105</maximum>
+          </airflowCorrection100>
+          <fuelCorrection100>
+            <!--Korekta pracy podajnika dla 100% mocy kotła [sek.]; --
+
+            <value>100</value>
+            <minimum>97</minimum>
+            <maximum>103</maximum>
+          </fuelCorrection100>
+          <airflowCorrection50>
+            <!--Korekta mocy nadmuchu dla 50% mocy kotła [%]; --
+
+            <value>100</value>
+            <minimum>95</minimum>
+            <maximum>105</maximum>
+          </airflowCorrection50>
+          <fuelCorrection40>
+            <!--Korekta pracy podajnika dla 50% mocy kotła [sek.]; --
+
+            <value>100</value>
+            <minimum>97</minimum>
+            <maximum>103</maximum>
+          </fuelCorrection40>
+          <airflowCorrection30>
+            <!--Korekta mocy nadmuchu dla 30% mocy kotła [%]; --
+
+            <value>100</value>
+            <minimum>95</minimum>
+            <maximum>105</maximum>
+          </airflowCorrection30>
+          <fuelCorrection30>
+            <!--Korekta pracy podajnika dla 30% mocy kotła [sek.]; --
+
+            <value>100</value>
+            <minimum>98</minimum>
+            <maximum>102</maximum>
+          </fuelCorrection30>
+          <firingUpBlowIn>
+            <!--Moc nadmuchu w trybie rozpalania [%]; -->
+            <value>60</value>
+            <minimum>10</minimum>
+            <maximum>100</maximum>
+          </firingUpBlowIn>
+          <ignitionTestTime>
+            <!--Czas przedmuchu przed rozpalaniem 1 [sek.]; -->
+            <value>5</value>
+            <minimum>1</minimum>
+            <maximum>10</maximum>
+          </ignitionTestTime>
+          <ignitionTestTime2>
+            <!--Czas przedmuchu przed rozpalaniem 2 [sek.]; -->
+            <value>10</value>
+            <minimum>1</minimum>
+            <maximum>20</maximum>
+          </ignitionTestTime2>
+          <firingUpFeedingTime>
+            <!--Pełna dawka rozpalania [sek.]; --
+
+            <value>60</value>
+            <minimum>1</minimum>
+            <maximum>255</maximum>
+          </firingUpFeedingTime>
+          <firingUpTime>
+            <!--Czas rozpalania [min.]; -->
+            <value>10</value>
+            <minimum>1</minimum>
+            <maximum>20</maximum>
+          </firingUpTime>
+          <firingUpExTempDelta>
+            <!--Delta spalin końca rozpalania 1 [°C]; -
+
+            <value>6</value>
+            <minimum>1</minimum>
+            <maximum>60</maximum>
+          </firingUpExTempDelta>
+          <firingUpExTempDelta2>
+            <!--Delta spalin końca rozpalania 2 [°C]; -
+
+            <value>10</value>
+            <minimum>1</minimum>
+            <maximum>60</maximum>
+          </firingUpExTempDelta2>
+          <firingUpExTempEnd>
+            <!--Temperatura spalin końca rozpalania [°C]; -
+
+            <value>200</value>
+            <minimum>30</minimum>
+            <maximum>250</maximum>
+          </firingUpExTempEnd>
+          <testFedingTime>
+            <!--Wstępne podawanie w teście rozpalania [%]; -
+
+            <value>0</value>
+            <minimum>0</minimum>
+            <maximum>40</maximum>
+          </testFedingTime>
+          <supervisionTime>
+            <!--Czas nadzoru [min.]; -->
+            <value>20</value>
+            <minimum>1</minimum>
+            <maximum>60</maximum>
+          </supervisionTime>
+          <supervisionFeedTime>
+            <!--Czas podawania paliwa w trybie NADZÓR [sek.]; --
+
+            <value>0</value>
+            <minimum>0</minimum>
+            <maximum>0</maximum>
+          </supervisionFeedTime>
+          <supervisionFeedInterval>
+            <!--Przerwa wentylatora i podajnika w trybie NADZÓR [min.]; --
+
+            <value>2</value>
+            <minimum>1</minimum>
+            <maximum>30</maximum>
+          </supervisionFeedInterval>
+          <minBlowInOutput>
+            <!--Minimalna moc dmuchawy [%]; -->
+            <value>25</value>
+            <minimum>10</minimum>
+            <maximum>100</maximum>
+          </minBlowInOutput>
+          <lambdaParameterA>
+            <!--Parametr Kp Lambda; -->
+            <value>1</value>
+            <minimum>1</minimum>
+            <maximum>8</maximum>
+          </lambdaParameterA>
+          <lambdaParameterB>
+            <!--Parametr Ti Lambda; -->
+            <value>120</value>
+            <minimum>10</minimum>
+            <maximum>200</maximum>
+          </lambdaParameterB>
+          <lambdaParameterC>
+            <!--Parametr Td Lambda; -->
+            <value>0</value>
+            <minimum>0</minimum>
+            <maximum>75</maximum>
+          </lambdaParameterC>
+          <oxygen100>
+            <!--Poziom tlenu dla pracy z moca kotła 100% [*0.1%]; --
+
+            <value>85</value>
+            <minimum>1</minimum>
+            <maximum>250</maximum>
+          </oxygen100>
+          <oxygen50>
+            <!--Poziom tlenu dla pracy z moca kotła 50% [*0.1%]; --
+
+            <value>105</value>
+            <minimum>1</minimum>
+            <maximum>250</maximum>
+          </oxygen50>
+          <oxygen30>
+            <!--Poziom tlenu dla pracy z moca kotła 30% [*0.1%]; --
+
+            <value>125</value>
+            <minimum>1</minimum>
+            <maximum>250</maximum>
+          </oxygen30>
+          <lambdaAirflowCorrRange>
+            <!--Zakres korekcji nadmuchu FL [%]; -->
+            <value>20</value>
+            <minimum>0</minimum>
+            <maximum>30</maximum>
+          </lambdaAirflowCorrRange>
+          <lambdaAveragingTime>
+            <!--Uśrednianie próbek w filtrze Lambdy [*10sek.]; -
+
+            <value>3</value>
+            <minimum>0</minimum>
+            <maximum>255</maximum>
+          </lambdaAveragingTime>
+          <oxygenCorrectionFL>
+            <!--Korekta tlenu FL [%]; -->
+            <value>100</value>
+            <minimum>50</minimum>
+            <maximum>150</maximum>
+          </oxygenCorrectionFL>
+          <ecoFalParameters>
+            <!--Parametry ecoFala; Parametry ecoFALa 1-szy: minimalna moc w
+HZ, 2-gi: parametr A ecoFALa, 3-ci: parametr B ecoFALa  -->
+            <value>10</value>
+            <minimum>50</minimum>
+            <maximum>60</maximum>
+          </ecoFalParameters>
+        </data>
+      </profile_5>
+      <profile_6>
+        <name>kopia SF41</name>
+        <reserved>030835150a150f0f0f0f232d3c575959595912171e26282828287d6955
+5a5a5a5a5a6e73</reserved>
+        <menu0>5</menu0>
+        <menu1>5</menu1>
+        <data>
+          <!--Dane profilu; -->
+          <blowInOutput100>
+            <!--Moc nadmuchu przy mocy kotła 100% [%]; --
+
+            <value>95</value>
+            <minimum>10</minimum>
+            <maximum>100</maximum>
+          </blowInOutput100>
+          <feederOperation100>
+            <!--Czas podawania przy mocy kotła 100% [sek.]; --
+
+            <value>4</value>
+            <minimum>1</minimum>
+            <maximum>100</maximum>
+          </feederOperation100>
+          <feederInterval100>
+            <!--Przerwa podawania przy mocy kotła 100% [sek.]; --
+
+            <value>5</value>
+            <minimum>1</minimum>
+            <maximum>100</maximum>
+          </feederInterval100>
+          <blowInOutput50>
+            <!--Moc nadmuchu przy mocy kotła 50% [%]; --
+
+            <value>65</value>
+            <minimum>10</minimum>
+            <maximum>100</maximum>
+          </blowInOutput50>
+          <feederOperation50>
+            <!--Czas podawania przy mocy kotła 50% [sek.]; --
+
+            <value>4</value>
+            <minimum>1</minimum>
+            <maximum>100</maximum>
+          </feederOperation50>
+          <feederInterval50>
+            <!--Przerwa podawania przy mocy kotła 50% [sek.]; --
+
+            <value>14</value>
+            <minimum>1</minimum>
+            <maximum>100</maximum>
+          </feederInterval50>
+          <blowInOutput30>
+            <!--Moc nadmuchu przy mocy kotła 30% [%]; --
+
+            <value>30</value>
+            <minimum>10</minimum>
+            <maximum>100</maximum>
+          </blowInOutput30>
+          <feederOperation30>
+            <!--Czas podawania przy mocy kotła 30% [sek.]; --
+
+            <value>4</value>
+            <minimum>1</minimum>
+            <maximum>100</maximum>
+          </feederOperation30>
+          <feederInterval30>
+            <!--Przerwa podawania przy mocy kotła 30% [sek.]; --
+
+            <value>28</value>
+            <minimum>1</minimum>
+            <maximum>100</maximum>
+          </feederInterval30>
+          <h2Hysteresis50>
+            <!--Histereza H2 [°C]; --
+
+            <value>10</value>
+            <minimum>1</minimum>
+            <maximum>30</maximum>
+          </h2Hysteresis50>
+          <h1Hysteresis30>
+            <!--Histereza H1 [°C]; --
+
+            <value>8</value>
+            <minimum>1</minimum>
+            <maximum>30</maximum>
+          </h1Hysteresis30>
+          <hkHysteresisBoiler>
+            <!--Histereza kotła [°C]; -
+
+            <value>15</value>
+            <minimum>1</minimum>
+            <maximum>30</maximum>
+          </hkHysteresisBoiler>
+          <blowInCorrectionFL>
+            <!--Wzmocnienie mocy wentylatora w algorytmie FL [%]; -->
+            <value>100</value>
+            <minimum>90</minimum>
+            <maximum>120</maximum>
+          </blowInCorrectionFL>
+          <minBoilerOutputFL>
+            <!--Minimalna moc kotła w algorytmie FL [%]; --
+
+            <value>10</value>
+            <minimum>0</minimum>
+            <maximum>100</maximum>
+          </minBoilerOutputFL>
+          <maxBoilerOutputFL>
+            <!--Maksymalna moc kotła w algorytmie FL [%]; --
+
+            <value>90</value>
+            <minimum>0</minimum>
+            <maximum>100</maximum>
+          </maxBoilerOutputFL>
+          <boilerParameterA>
+            <!--Parametr Kp; -->
+            <value>6</value>
+            <minimum>6</minimum>
+            <maximum>8</maximum>
+          </boilerParameterA>
+          <boilerParameterB>
+            <!--Parametr Ti; -->
+            <value>30</value>
+            <minimum>20</minimum>
+            <maximum>30</maximum>
+          </boilerParameterB>
+          <boilerParameterC>
+            <!--Parametr Td; -->
+            <value>15</value>
+            <minimum>0</minimum>
+            <maximum>75</maximum>
+          </boilerParameterC>
+          <regulationMode>
+            <!--Tryb regulacji; Tryb regulacji: 0-standard, 1-FuzyyLogic,
+2-zablokowany FL-->
+            <value>0</value>
+            <minimum>0</minimum>
+            <maximum>2</maximum>
+          </regulationMode>
+          <airflowCorrection100>
+            <!--Korekta mocy nadmuchu dla 100% mocy kotła [%]; --
+
+            <value>100</value>
+            <minimum>95</minimum>
+            <maximum>105</maximum>
+          </airflowCorrection100>
+          <fuelCorrection100>
+            <!--Korekta pracy podajnika dla 100% mocy kotła [sek.]; --
+
+            <value>100</value>
+            <minimum>97</minimum>
+            <maximum>103</maximum>
+          </fuelCorrection100>
+          <airflowCorrection50>
+            <!--Korekta mocy nadmuchu dla 50% mocy kotła [%]; --
+
+            <value>100</value>
+            <minimum>95</minimum>
+            <maximum>105</maximum>
+          </airflowCorrection50>
+          <fuelCorrection40>
+            <!--Korekta pracy podajnika dla 50% mocy kotła [sek.]; --
+
+            <value>100</value>
+            <minimum>97</minimum>
+            <maximum>103</maximum>
+          </fuelCorrection40>
+          <airflowCorrection30>
+            <!--Korekta mocy nadmuchu dla 30% mocy kotła [%]; --
+
+            <value>100</value>
+            <minimum>95</minimum>
+            <maximum>105</maximum>
+          </airflowCorrection30>
+          <fuelCorrection30>
+            <!--Korekta pracy podajnika dla 30% mocy kotła [sek.]; --
+
+            <value>100</value>
+            <minimum>98</minimum>
+            <maximum>102</maximum>
+          </fuelCorrection30>
+          <firingUpBlowIn>
+            <!--Moc nadmuchu w trybie rozpalania [%]; -->
+            <value>60</value>
+            <minimum>10</minimum>
+            <maximum>100</maximum>
+          </firingUpBlowIn>
+          <ignitionTestTime>
+            <!--Czas przedmuchu przed rozpalaniem 1 [sek.]; -->
+            <value>5</value>
+            <minimum>1</minimum>
+            <maximum>10</maximum>
+          </ignitionTestTime>
+          <ignitionTestTime2>
+            <!--Czas przedmuchu przed rozpalaniem 2 [sek.]; -->
+            <value>10</value>
+            <minimum>1</minimum>
+            <maximum>20</maximum>
+          </ignitionTestTime2>
+          <firingUpFeedingTime>
+            <!--Pełna dawka rozpalania [sek.]; --
+
+            <value>60</value>
+            <minimum>1</minimum>
+            <maximum>255</maximum>
+          </firingUpFeedingTime>
+          <firingUpTime>
+            <!--Czas rozpalania [min.]; -->
+            <value>10</value>
+            <minimum>1</minimum>
+            <maximum>20</maximum>
+          </firingUpTime>
+          <firingUpExTempDelta>
+            <!--Delta spalin końca rozpalania 1 [°C]; -
+
+            <value>6</value>
+            <minimum>1</minimum>
+            <maximum>60</maximum>
+          </firingUpExTempDelta>
+          <firingUpExTempDelta2>
+            <!--Delta spalin końca rozpalania 2 [°C]; -
+
+            <value>10</value>
+            <minimum>1</minimum>
+            <maximum>60</maximum>
+          </firingUpExTempDelta2>
+          <firingUpExTempEnd>
+            <!--Temperatura spalin końca rozpalania [°C]; -
+
+            <value>200</value>
+            <minimum>30</minimum>
+            <maximum>250</maximum>
+          </firingUpExTempEnd>
+          <testFedingTime>
+            <!--Wstępne podawanie w teście rozpalania [%]; -
+
+            <value>0</value>
+            <minimum>0</minimum>
+            <maximum>40</maximum>
+          </testFedingTime>
+          <supervisionTime>
+            <!--Czas nadzoru [min.]; -->
+            <value>20</value>
+            <minimum>1</minimum>
+            <maximum>60</maximum>
+          </supervisionTime>
+          <supervisionFeedTime>
+            <!--Czas podawania paliwa w trybie NADZÓR [sek.]; --
+
+            <value>0</value>
+            <minimum>0</minimum>
+            <maximum>0</maximum>
+          </supervisionFeedTime>
+          <supervisionFeedInterval>
+            <!--Przerwa wentylatora i podajnika w trybie NADZÓR [min.]; --
+
+            <value>2</value>
+            <minimum>1</minimum>
+            <maximum>30</maximum>
+          </supervisionFeedInterval>
+          <minBlowInOutput>
+            <!--Minimalna moc dmuchawy [%]; -->
+            <value>25</value>
+            <minimum>10</minimum>
+            <maximum>100</maximum>
+          </minBlowInOutput>
+          <lambdaParameterA>
+            <!--Parametr Kp Lambda; -->
+            <value>1</value>
+            <minimum>1</minimum>
+            <maximum>8</maximum>
+          </lambdaParameterA>
+          <lambdaParameterB>
+            <!--Parametr Ti Lambda; -->
+            <value>120</value>
+            <minimum>10</minimum>
+            <maximum>200</maximum>
+          </lambdaParameterB>
+          <lambdaParameterC>
+            <!--Parametr Td Lambda; -->
+            <value>0</value>
+            <minimum>0</minimum>
+            <maximum>75</maximum>
+          </lambdaParameterC>
+          <oxygen100>
+            <!--Poziom tlenu dla pracy z moca kotła 100% [*0.1%]; --
+
+            <value>85</value>
+            <minimum>1</minimum>
+            <maximum>250</maximum>
+          </oxygen100>
+          <oxygen50>
+            <!--Poziom tlenu dla pracy z moca kotła 50% [*0.1%]; --
+
+            <value>105</value>
+            <minimum>1</minimum>
+            <maximum>250</maximum>
+          </oxygen50>
+          <oxygen30>
+            <!--Poziom tlenu dla pracy z moca kotła 30% [*0.1%]; --
+
+            <value>125</value>
+            <minimum>1</minimum>
+            <maximum>250</maximum>
+          </oxygen30>
+          <lambdaAirflowCorrRange>
+            <!--Zakres korekcji nadmuchu FL [%]; -->
+            <value>20</value>
             <minimum>0</minimum>
             <maximum>30</maximum>
           </lambdaAirflowCorrRange>
@@ -2575,11 +2714,11 @@
           <value>20</value>
         </feedIgnitionTest>
         <maxCoTemp>
-          <!--Maksymalna temperatura kotła po której włączany jest alarm [°C]; -->
+          <!--Maksymalna temperatura kotła po której włączany jest a arm [°C]; -->
           <value>95</value>
         </maxCoTemp>
         <antifreezeCoTemp>
-          <!--Temperatura kotła CO po przekroczeniu której włączana jest funkcja przeciwdziałająca zamarzaniu instalacji [°C]; -->
+          <!--Temperatura kotła CO po przekroczeniu której włączana est funkcja przeciwdziałająca zamarzaniu instalacji [°C]; -->
           <value>5</value>
         </antifreezeCoTemp>
         <termostatCoPumpWork>
@@ -2591,11 +2730,11 @@
           <value>3</value>
         </pumpsContWork>
         <producerCode>
-          <!--Nazwa producenta; Parametr określający nazwę producenta, dla którego wartości domyślne programu zostały załadowane-->
+          <!--Nazwa producenta; Parametr określający nazwę producenta, la którego wartości domyślne programu zostały załadowa-->
           <value>82</value>
         </producerCode>
         <producerFurnacy>
-          <!--Wersję kotła producenta; Parametr określający wersję kotła producenta, dla którego wartości domyślne programu zostały załadowane-->
+          <!--Wersję kotła producenta; Parametr określający wersję otła producenta, dla którego wartości domyślne programu zosały załadowane-->
           <value>1</value>
         </producerFurnacy>
       </byte>
@@ -2610,19 +2749,22 @@
         </producerPassword>
         <viewPassword>
           <!--Hasło podglądu danych (4 cyfry); -->
+
           <value>0</value>
         </viewPassword>
         <algorithmPassword>
           <!--Hasło zmiany algorytmu (4 cyfry); -->
+
           <value>8888</value>
         </algorithmPassword>
       </word>
       <doubleWord>
         <tankCapacity>
           <!--Czas wyładowania pełnego zbiornika paliwa [sek.]; -->
-          <value>114341</value>
+          <value>158</value>
         </tankCapacity>
       </doubleWord>
     </uneditable>
   </config>
 </project>
+
